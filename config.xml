@@ -325,32 +325,6 @@ XYyEMr6yf4hHsEfIxtPmAAAAF2JhcmlzQGFsa2EtYXV0b3RlaWxlLmRlAQIDBAUG&#13;
         <description>/firewall_rules_edit.php made changes</description>
       </created>
     </rule>
-    <rule uuid="e7cd27dd-a0e0-474a-8581-cc6b4b8deccc">
-      <type>pass</type>
-      <interface>wan</interface>
-      <ipprotocol>inet</ipprotocol>
-      <statetype>keep state</statetype>
-      <direction>in</direction>
-      <quick>1</quick>
-      <protocol>tcp/udp</protocol>
-      <source>
-        <any>1</any>
-      </source>
-      <destination>
-        <address>192.168.1.103</address>
-        <port>5027</port>
-      </destination>
-      <updated>
-        <username>root@192.168.1.195</username>
-        <time>1755532510.34</time>
-        <description>/firewall_rules_edit.php made changes</description>
-      </updated>
-      <created>
-        <username>root@192.168.1.195</username>
-        <time>1755532484.07</time>
-        <description>/firewall_rules_edit.php made changes</description>
-      </created>
-    </rule>
     <rule uuid="d172a268-6384-48b9-a34b-08221da06e8b">
       <type>pass</type>
       <interface>wan</interface>
@@ -556,8 +530,8 @@ XYyEMr6yf4hHsEfIxtPmAAAAF2JhcmlzQGFsa2EtYXV0b3RlaWxlLmRlAQIDBAUG&#13;
   </ntpd>
   <revision>
     <username>root@192.168.1.195</username>
-    <description>/firewall_rules_edit.php made changes</description>
-    <time>1755532510.45</time>
+    <description>/firewall_rules.php made changes</description>
+    <time>1755532555.13</time>
   </revision>
   <OPNsense>
     <wireguard>
