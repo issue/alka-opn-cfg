@@ -505,8 +505,8 @@ XYyEMr6yf4hHsEfIxtPmAAAAF2JhcmlzQGFsa2EtYXV0b3RlaWxlLmRlAQIDBAUG&#13;
   </ntpd>
   <revision>
     <username>root@192.168.1.195</username>
-    <description>/api/haproxy/settings/set_backend/99263013-29ce-4892-b3d0-50b24fb3b139 made changes</description>
-    <time>1755526342.34</time>
+    <description>/api/haproxy/settings/add_healthcheck/ made changes</description>
+    <time>1755526389.95</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -1662,7 +1662,7 @@ XYyEMr6yf4hHsEfIxtPmAAAAF2JhcmlzQGFsa2EtYXV0b3RlaWxlLmRlAQIDBAUG&#13;
       </validations>
       <actions/>
     </AcmeClient>
-    <HAProxy version="4.1.0" persisted_at="1755526342.34">
+    <HAProxy version="4.1.0" persisted_at="1755526389.95">
       <general>
         <enabled>1</enabled>
         <gracefulStop>0</gracefulStop>
@@ -2000,7 +2000,40 @@ XYyEMr6yf4hHsEfIxtPmAAAAF2JhcmlzQGFsa2EtYXV0b3RlaWxlLmRlAQIDBAUG&#13;
           <unix_socket/>
         </server>
       </servers>
-      <healthchecks/>
+      <healthchecks>
+        <healthcheck uuid="a5a88f70-5bbc-4802-a9f0-87a54660f3fe">
+          <name>AlkaUrlaub</name>
+          <description/>
+          <type>http</type>
+          <interval>2s</interval>
+          <ssl>nopref</ssl>
+          <sslSNI/>
+          <force_ssl>0</force_ssl>
+          <checkport/>
+          <http_method>options</http_method>
+          <http_uri>/</http_uri>
+          <http_version>http10</http_version>
+          <http_host/>
+          <http_expressionEnabled>0</http_expressionEnabled>
+          <http_expression/>
+          <http_negate>0</http_negate>
+          <http_value/>
+          <tcp_enabled>0</tcp_enabled>
+          <tcp_sendValue/>
+          <tcp_matchType>string</tcp_matchType>
+          <tcp_negate>0</tcp_negate>
+          <tcp_matchValue/>
+          <agent_port/>
+          <mysql_user/>
+          <mysql_post41>0</mysql_post41>
+          <pgsql_user/>
+          <smtp_domain/>
+          <esmtp_domain/>
+          <agentPort/>
+          <dbUser/>
+          <smtpDomain/>
+        </healthcheck>
+      </healthchecks>
       <acls>
         <acl uuid="e2252c24-9eb8-49b5-ad8d-80397f9eeb8a">
           <id>68a1fdd30da180.33189259</id>
