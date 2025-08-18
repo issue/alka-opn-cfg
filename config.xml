@@ -1446,7 +1446,7 @@ KP</content>
         <webcategoriesType/>
       </rules>
     </Zenarmor>
-    <AcmeClient version="4.3.0" persisted_at="1755532869.25">
+    <AcmeClient version="4.3.0" persisted_at="1755532942.47">
       <settings>
         <enabled>1</enabled>
         <autoRenewal>1</autoRenewal>
@@ -1517,8 +1517,8 @@ KP</content>
           <aliasmode>none</aliasmode>
           <domainalias/>
           <challengealias/>
-          <certRefId/>
-          <lastUpdate/>
+          <certRefId>68a34e8e715df</certRefId>
+          <lastUpdate>1755532942</lastUpdate>
           <statusCode>100</statusCode>
           <statusLastUpdate/>
         </certificate>
