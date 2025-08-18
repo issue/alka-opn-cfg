@@ -581,9 +581,9 @@ XYyEMr6yf4hHsEfIxtPmAAAAF2JhcmlzQGFsa2EtYXV0b3RlaWxlLmRlAQIDBAUG&#13;
     <prefer>0.opnsense.pool.ntp.org</prefer>
   </ntpd>
   <revision>
-    <username>(system)</username>
-    <description>/usr/local/opnsense/scripts/OPNsense/AcmeClient/lecert.php made changes</description>
-    <time>1755532942.49</time>
+    <username>root@192.168.1.195</username>
+    <description>/api/haproxy/settings/add_server/ made changes</description>
+    <time>1755533176.97</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -1779,7 +1779,7 @@ KP</content>
       </validations>
       <actions/>
     </AcmeClient>
-    <HAProxy version="4.1.0" persisted_at="1755526873.18">
+    <HAProxy version="4.1.0" persisted_at="1755533176.97">
       <general>
         <enabled>1</enabled>
         <gracefulStop>0</gracefulStop>
@@ -2093,6 +2093,36 @@ KP</content>
           <description/>
           <address>192.168.1.189</address>
           <port>8080</port>
+          <checkport/>
+          <mode>active</mode>
+          <multiplexer_protocol>unspecified</multiplexer_protocol>
+          <type>static</type>
+          <serviceName/>
+          <number/>
+          <linkedResolver/>
+          <resolverOpts/>
+          <resolvePrefer/>
+          <ssl>0</ssl>
+          <sslSNI/>
+          <sslVerify>0</sslVerify>
+          <sslCA/>
+          <sslCRL/>
+          <sslClientCertificate/>
+          <maxConnections/>
+          <weight/>
+          <checkInterval/>
+          <checkDownInterval/>
+          <source/>
+          <advanced/>
+          <unix_socket/>
+        </server>
+        <server uuid="c2e7003c-0ea6-4726-8aa1-69cfad384e36">
+          <id>68a34f78ea89f7.58053299</id>
+          <enabled>1</enabled>
+          <name>alkaoidc</name>
+          <description/>
+          <address>192.168.1.179</address>
+          <port>80</port>
           <checkport/>
           <mode>active</mode>
           <multiplexer_protocol>unspecified</multiplexer_protocol>
