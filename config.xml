@@ -503,7 +503,7 @@ XYyEMr6yf4hHsEfIxtPmAAAAF2JhcmlzQGFsa2EtYXV0b3RlaWxlLmRlAQIDBAUG&#13;
   <revision>
     <username>root@192.168.1.195</username>
     <description>/api/zenarmor/configuration/license_detail made changes</description>
-    <time>1755503829.69</time>
+    <time>1755503830.45</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -1136,7 +1136,7 @@ XYyEMr6yf4hHsEfIxtPmAAAAF2JhcmlzQGFsa2EtYXV0b3RlaWxlLmRlAQIDBAUG&#13;
       <hosts/>
       <aliases/>
     </unboundplus>
-    <Zenarmor version="0.0.0" persisted_at="1755503829.69">
+    <Zenarmor version="0.0.0" persisted_at="1755503830.45">
       <zenvpn>
         <enabled>1</enabled>
       </zenvpn>
@@ -1302,7 +1302,7 @@ XYyEMr6yf4hHsEfIxtPmAAAAF2JhcmlzQGFsa2EtYXV0b3RlaWxlLmRlAQIDBAUG&#13;
       </intrusiondetection>
       <streamReportConfig>
         <enabled>false</enabled>
-        <server>127.0.0.1</server>
+        <server/>
         <port>514</port>
         <protocol>UDP</protocol>
         <indexes/>
