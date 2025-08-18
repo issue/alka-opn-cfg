@@ -505,8 +505,8 @@ XYyEMr6yf4hHsEfIxtPmAAAAF2JhcmlzQGFsa2EtYXV0b3RlaWxlLmRlAQIDBAUG&#13;
   </ntpd>
   <revision>
     <username>root@192.168.1.195</username>
-    <description>/api/haproxy/settings/add_backend/ made changes</description>
-    <time>1755526013.71</time>
+    <description>/api/haproxy/settings/set_action/f642c16e-d193-48c5-9a1d-9a67d947fed8 made changes</description>
+    <time>1755526029.25</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -1662,7 +1662,7 @@ XYyEMr6yf4hHsEfIxtPmAAAAF2JhcmlzQGFsa2EtYXV0b3RlaWxlLmRlAQIDBAUG&#13;
       </validations>
       <actions/>
     </AcmeClient>
-    <HAProxy version="4.1.0" persisted_at="1755526013.71">
+    <HAProxy version="4.1.0" persisted_at="1755526029.25">
       <general>
         <enabled>1</enabled>
         <gracefulStop>0</gracefulStop>
@@ -2223,7 +2223,7 @@ XYyEMr6yf4hHsEfIxtPmAAAAF2JhcmlzQGFsa2EtYXV0b3RlaWxlLmRlAQIDBAUG&#13;
           <linkedAcls>f7418d09-4f01-4678-b7e3-1f678b4798f2</linkedAcls>
           <operator>and</operator>
           <type>use_backend</type>
-          <use_backend/>
+          <use_backend>99263013-29ce-4892-b3d0-50b24fb3b139</use_backend>
           <use_server/>
           <fcgi_pass_header/>
           <fcgi_set_param/>
