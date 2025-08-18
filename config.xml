@@ -102,9 +102,9 @@
     <dnsserver>192.168.1.10</dnsserver>
     <language>en_US</language>
     <backup>
-      <git version="1.0.0" persisted_at="1755503002.19">
+      <git version="1.0.0" persisted_at="1755503055.96">
         <enabled>1</enabled>
-        <url>ssh://git@github.com:issue/alka-config.git</url>
+        <url>ssh://github.com/issue/alka-config.git</url>
         <branch>opnsense</branch>
         <privkey>-----BEGIN OPENSSH PRIVATE KEY-----&#13;
 b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW&#13;
@@ -503,7 +503,7 @@ XYyEMr6yf4hHsEfIxtPmAAAAF2JhcmlzQGFsa2EtYXV0b3RlaWxlLmRlAQIDBAUG&#13;
   <revision>
     <username>root@192.168.1.195</username>
     <description>/diag_backup.php made changes</description>
-    <time>1755503002.19</time>
+    <time>1755503055.96</time>
   </revision>
   <OPNsense>
     <wireguard>
