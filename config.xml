@@ -501,9 +501,9 @@ XYyEMr6yf4hHsEfIxtPmAAAAF2JhcmlzQGFsa2EtYXV0b3RlaWxlLmRlAQIDBAUG&#13;
     <prefer>0.opnsense.pool.ntp.org</prefer>
   </ntpd>
   <revision>
-    <username>(system)</username>
-    <description>/usr/local/opnsense/mvc/app/library/OPNsense/Zenarmor/CLI.php made changes</description>
-    <time>1755504946.25</time>
+    <username>root@192.168.1.195</username>
+    <description>/api/zenarmor/policy/apply made changes</description>
+    <time>1755505489.83</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -1136,7 +1136,7 @@ XYyEMr6yf4hHsEfIxtPmAAAAF2JhcmlzQGFsa2EtYXV0b3RlaWxlLmRlAQIDBAUG&#13;
       <hosts/>
       <aliases/>
     </unboundplus>
-    <Zenarmor version="0.0.0" persisted_at="1755504946.25">
+    <Zenarmor version="0.0.0" persisted_at="1755505489.83">
       <zenvpn>
         <enabled>1</enabled>
       </zenvpn>
