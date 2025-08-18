@@ -582,8 +582,8 @@ XYyEMr6yf4hHsEfIxtPmAAAAF2JhcmlzQGFsa2EtYXV0b3RlaWxlLmRlAQIDBAUG&#13;
   </ntpd>
   <revision>
     <username>root@192.168.1.195</username>
-    <description>/api/haproxy/settings/add_server/ made changes</description>
-    <time>1755533176.97</time>
+    <description>/api/haproxy/settings/add_backend/ made changes</description>
+    <time>1755533194.89</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -1779,7 +1779,7 @@ KP</content>
       </validations>
       <actions/>
     </AcmeClient>
-    <HAProxy version="4.1.0" persisted_at="1755533176.97">
+    <HAProxy version="4.1.0" persisted_at="1755533194.88">
       <general>
         <enabled>1</enabled>
         <gracefulStop>0</gracefulStop>
@@ -2018,6 +2018,66 @@ KP</content>
           <healthCheckRise/>
           <linkedMailer/>
           <http2Enabled>0</http2Enabled>
+          <http2Enabled_nontls>0</http2Enabled_nontls>
+          <ba_advertised_protocols>h2,http11</ba_advertised_protocols>
+          <forwardFor>0</forwardFor>
+          <forwardedHeader>0</forwardedHeader>
+          <forwardedHeaderParameters/>
+          <persistence>sticktable</persistence>
+          <persistence_cookiemode>piggyback</persistence_cookiemode>
+          <persistence_cookiename>SRVCOOKIE</persistence_cookiename>
+          <persistence_stripquotes>1</persistence_stripquotes>
+          <stickiness_pattern>sourceipv4</stickiness_pattern>
+          <stickiness_dataTypes/>
+          <stickiness_expire>30m</stickiness_expire>
+          <stickiness_size>50k</stickiness_size>
+          <stickiness_cookiename/>
+          <stickiness_cookielength/>
+          <stickiness_connRatePeriod>10s</stickiness_connRatePeriod>
+          <stickiness_sessRatePeriod>10s</stickiness_sessRatePeriod>
+          <stickiness_httpReqRatePeriod>10s</stickiness_httpReqRatePeriod>
+          <stickiness_httpErrRatePeriod>10s</stickiness_httpErrRatePeriod>
+          <stickiness_bytesInRatePeriod>1m</stickiness_bytesInRatePeriod>
+          <stickiness_bytesOutRatePeriod>1m</stickiness_bytesOutRatePeriod>
+          <basicAuthEnabled>0</basicAuthEnabled>
+          <basicAuthUsers/>
+          <basicAuthGroups/>
+          <tuning_timeoutConnect/>
+          <tuning_timeoutCheck/>
+          <tuning_timeoutServer/>
+          <tuning_retries/>
+          <customOptions/>
+          <tuning_defaultserver/>
+          <tuning_noport>0</tuning_noport>
+          <tuning_httpreuse>safe</tuning_httpreuse>
+          <tuning_caching>0</tuning_caching>
+          <linkedActions/>
+          <linkedErrorfiles/>
+        </backend>
+        <backend uuid="95a0475c-d8ed-41da-8d7a-41080d7eb352">
+          <id>68a34f8ad5de34.21594486</id>
+          <enabled>1</enabled>
+          <name>AlkaOIDC</name>
+          <description/>
+          <mode>http</mode>
+          <algorithm>source</algorithm>
+          <random_draws>2</random_draws>
+          <proxyProtocol/>
+          <linkedServers/>
+          <linkedFcgi/>
+          <linkedResolver/>
+          <resolverOpts/>
+          <resolvePrefer/>
+          <source/>
+          <healthCheckEnabled>1</healthCheckEnabled>
+          <healthCheck>1a1d5910-286c-4451-af80-357cbf2d92ca</healthCheck>
+          <healthCheckLogStatus>0</healthCheckLogStatus>
+          <checkInterval/>
+          <checkDownInterval/>
+          <healthCheckFall/>
+          <healthCheckRise/>
+          <linkedMailer/>
+          <http2Enabled>1</http2Enabled>
           <http2Enabled_nontls>0</http2Enabled_nontls>
           <ba_advertised_protocols>h2,http11</ba_advertised_protocols>
           <forwardFor>0</forwardFor>
