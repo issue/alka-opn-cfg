@@ -505,8 +505,8 @@ XYyEMr6yf4hHsEfIxtPmAAAAF2JhcmlzQGFsa2EtYXV0b3RlaWxlLmRlAQIDBAUG&#13;
   </ntpd>
   <revision>
     <username>root@192.168.1.195</username>
-    <description>/api/firewall/alias/set made changes</description>
-    <time>1755527950.24</time>
+    <description>/api/zenarmor/configuration/cloud_thread_intelligence made changes</description>
+    <time>1755528002.08</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -1139,7 +1139,7 @@ XYyEMr6yf4hHsEfIxtPmAAAAF2JhcmlzQGFsa2EtYXV0b3RlaWxlLmRlAQIDBAUG&#13;
       <hosts/>
       <aliases/>
     </unboundplus>
-    <Zenarmor version="0.0.0" persisted_at="1755505567.35">
+    <Zenarmor version="0.0.0" persisted_at="1755528002.08">
       <zenvpn>
         <enabled>1</enabled>
       </zenvpn>
@@ -1321,7 +1321,7 @@ XYyEMr6yf4hHsEfIxtPmAAAAF2JhcmlzQGFsa2EtYXV0b3RlaWxlLmRlAQIDBAUG&#13;
         <ClusterUUID/>
       </streamReportDataExternal>
       <dns>
-        <localDomain>intra.example.com</localDomain>
+        <localDomain>alka-autoteile.xyz</localDomain>
       </dns>
       <tls>
         <enabled>false</enabled>
