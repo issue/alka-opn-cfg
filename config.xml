@@ -583,7 +583,7 @@ XYyEMr6yf4hHsEfIxtPmAAAAF2JhcmlzQGFsa2EtYXV0b3RlaWxlLmRlAQIDBAUG&#13;
   <revision>
     <username>(system)</username>
     <description>/usr/local/opnsense/scripts/OPNsense/AcmeClient/lecert.php made changes</description>
-    <time>1755532942.47</time>
+    <time>1755532942.49</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -1446,7 +1446,7 @@ KP</content>
         <webcategoriesType/>
       </rules>
     </Zenarmor>
-    <AcmeClient version="4.3.0" persisted_at="1755532942.47">
+    <AcmeClient version="4.3.0" persisted_at="1755532942.49">
       <settings>
         <enabled>1</enabled>
         <autoRenewal>1</autoRenewal>
@@ -1519,8 +1519,8 @@ KP</content>
           <challengealias/>
           <certRefId>68a34e8e715df</certRefId>
           <lastUpdate>1755532942</lastUpdate>
-          <statusCode>100</statusCode>
-          <statusLastUpdate/>
+          <statusCode>200</statusCode>
+          <statusLastUpdate>1755532942</statusLastUpdate>
         </certificate>
       </certificates>
       <validations>
