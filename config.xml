@@ -328,7 +328,7 @@ XYyEMr6yf4hHsEfIxtPmAAAAF2JhcmlzQGFsa2EtYXV0b3RlaWxlLmRlAQIDBAUG&#13;
     <rule uuid="e7cd27dd-a0e0-474a-8581-cc6b4b8deccc">
       <type>pass</type>
       <interface>wan</interface>
-      <ipprotocol>inet46</ipprotocol>
+      <ipprotocol>inet</ipprotocol>
       <statetype>keep state</statetype>
       <direction>in</direction>
       <quick>1</quick>
@@ -337,12 +337,12 @@ XYyEMr6yf4hHsEfIxtPmAAAAF2JhcmlzQGFsa2EtYXV0b3RlaWxlLmRlAQIDBAUG&#13;
         <any>1</any>
       </source>
       <destination>
-        <network>wanip</network>
+        <address>192.168.1.103</address>
         <port>5027</port>
       </destination>
       <updated>
         <username>root@192.168.1.195</username>
-        <time>1755532484.07</time>
+        <time>1755532510.34</time>
         <description>/firewall_rules_edit.php made changes</description>
       </updated>
       <created>
@@ -557,7 +557,7 @@ XYyEMr6yf4hHsEfIxtPmAAAAF2JhcmlzQGFsa2EtYXV0b3RlaWxlLmRlAQIDBAUG&#13;
   <revision>
     <username>root@192.168.1.195</username>
     <description>/firewall_rules_edit.php made changes</description>
-    <time>1755532484.18</time>
+    <time>1755532510.45</time>
   </revision>
   <OPNsense>
     <wireguard>
