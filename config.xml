@@ -582,8 +582,8 @@ XYyEMr6yf4hHsEfIxtPmAAAAF2JhcmlzQGFsa2EtYXV0b3RlaWxlLmRlAQIDBAUG&#13;
   </ntpd>
   <revision>
     <username>root@172.16.244.2</username>
-    <description>/api/wireguard/client/add_client_builder made changes</description>
-    <time>1755544352.50</time>
+    <description>/api/wireguard/general/set made changes</description>
+    <time>1755544355.77</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -611,7 +611,7 @@ XYyEMr6yf4hHsEfIxtPmAAAAF2JhcmlzQGFsa2EtYXV0b3RlaWxlLmRlAQIDBAUG&#13;
           </client>
         </clients>
       </client>
-      <general version="0.0.1" persisted_at="1755436244.76">
+      <general version="0.0.1" persisted_at="1755544355.77">
         <enabled>1</enabled>
       </general>
       <server version="1.0.0" persisted_at="1755544352.49">
