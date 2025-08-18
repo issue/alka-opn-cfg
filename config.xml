@@ -582,12 +582,12 @@ XYyEMr6yf4hHsEfIxtPmAAAAF2JhcmlzQGFsa2EtYXV0b3RlaWxlLmRlAQIDBAUG&#13;
   </ntpd>
   <revision>
     <username>root@172.16.244.2</username>
-    <description>/api/wireguard/client/del_client/abe72aea-ed02-4953-b7b5-ef23db038bae made changes</description>
-    <time>1755544304.47</time>
+    <description>/api/wireguard/client/add_client_builder made changes</description>
+    <time>1755544352.50</time>
   </revision>
   <OPNsense>
     <wireguard>
-      <client version="1.0.0" persisted_at="1755544304.47">
+      <client version="1.0.0" persisted_at="1755544352.50">
         <clients>
           <client uuid="ba7b69cb-b8d3-43d2-a1bf-640ba6081648">
             <enabled>1</enabled>
@@ -599,12 +599,22 @@ XYyEMr6yf4hHsEfIxtPmAAAAF2JhcmlzQGFsa2EtYXV0b3RlaWxlLmRlAQIDBAUG&#13;
             <serverport/>
             <keepalive/>
           </client>
+          <client uuid="cfa5227a-1eaa-45ff-8657-30b36e826063">
+            <enabled>1</enabled>
+            <name>Bariss-iPhone</name>
+            <pubkey>jD1U9QIrLEOYe7oibJPSNxaFhj/5/mPoNg0xH+jv0XE=</pubkey>
+            <psk/>
+            <tunneladdress>172.16.244.3/32</tunneladdress>
+            <serveraddress/>
+            <serverport/>
+            <keepalive/>
+          </client>
         </clients>
       </client>
       <general version="0.0.1" persisted_at="1755436244.76">
         <enabled>1</enabled>
       </general>
-      <server version="1.0.0" persisted_at="1755544304.43">
+      <server version="1.0.0" persisted_at="1755544352.49">
         <servers>
           <server uuid="d639fd4e-459d-4eca-a363-7283e0f96cfb">
             <enabled>1</enabled>
@@ -619,7 +629,7 @@ XYyEMr6yf4hHsEfIxtPmAAAAF2JhcmlzQGFsa2EtYXV0b3RlaWxlLmRlAQIDBAUG&#13;
             <disableroutes>0</disableroutes>
             <gateway/>
             <carp_depend_on/>
-            <peers>ba7b69cb-b8d3-43d2-a1bf-640ba6081648</peers>
+            <peers>ba7b69cb-b8d3-43d2-a1bf-640ba6081648,cfa5227a-1eaa-45ff-8657-30b36e826063</peers>
             <endpoint>vpn.alka-it.de:51928</endpoint>
             <peer_dns>192.168.1.10</peer_dns>
           </server>
