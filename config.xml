@@ -505,8 +505,8 @@ XYyEMr6yf4hHsEfIxtPmAAAAF2JhcmlzQGFsa2EtYXV0b3RlaWxlLmRlAQIDBAUG&#13;
   </ntpd>
   <revision>
     <username>root@192.168.1.195</username>
-    <description>/api/haproxy/settings/set_backend/99263013-29ce-4892-b3d0-50b24fb3b139 made changes</description>
-    <time>1755526425.30</time>
+    <description>/api/haproxy/settings/add_healthcheck/ made changes</description>
+    <time>1755526671.63</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -1662,7 +1662,7 @@ XYyEMr6yf4hHsEfIxtPmAAAAF2JhcmlzQGFsa2EtYXV0b3RlaWxlLmRlAQIDBAUG&#13;
       </validations>
       <actions/>
     </AcmeClient>
-    <HAProxy version="4.1.0" persisted_at="1755526425.30">
+    <HAProxy version="4.1.0" persisted_at="1755526671.63">
       <general>
         <enabled>1</enabled>
         <gracefulStop>0</gracefulStop>
@@ -2014,6 +2014,38 @@ XYyEMr6yf4hHsEfIxtPmAAAAF2JhcmlzQGFsa2EtYXV0b3RlaWxlLmRlAQIDBAUG&#13;
           <http_uri>/</http_uri>
           <http_version>http10</http_version>
           <http_host>192.168.1.189</http_host>
+          <http_expressionEnabled>0</http_expressionEnabled>
+          <http_expression/>
+          <http_negate>0</http_negate>
+          <http_value/>
+          <tcp_enabled>0</tcp_enabled>
+          <tcp_sendValue/>
+          <tcp_matchType>string</tcp_matchType>
+          <tcp_negate>0</tcp_negate>
+          <tcp_matchValue/>
+          <agent_port/>
+          <mysql_user/>
+          <mysql_post41>0</mysql_post41>
+          <pgsql_user/>
+          <smtp_domain/>
+          <esmtp_domain/>
+          <agentPort/>
+          <dbUser/>
+          <smtpDomain/>
+        </healthcheck>
+        <healthcheck uuid="1a1d5910-286c-4451-af80-357cbf2d92ca">
+          <name>AlkaCloud</name>
+          <description/>
+          <type>http</type>
+          <interval>2s</interval>
+          <ssl>nopref</ssl>
+          <sslSNI/>
+          <force_ssl>0</force_ssl>
+          <checkport>11000</checkport>
+          <http_method>options</http_method>
+          <http_uri>/</http_uri>
+          <http_version>http10</http_version>
+          <http_host>192.168.1.111</http_host>
           <http_expressionEnabled>0</http_expressionEnabled>
           <http_expression/>
           <http_negate>0</http_negate>
