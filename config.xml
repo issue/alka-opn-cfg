@@ -505,8 +505,8 @@ XYyEMr6yf4hHsEfIxtPmAAAAF2JhcmlzQGFsa2EtYXV0b3RlaWxlLmRlAQIDBAUG&#13;
   </ntpd>
   <revision>
     <username>root@192.168.1.195</username>
-    <description>/api/haproxy/settings/set_action/f642c16e-d193-48c5-9a1d-9a67d947fed8 made changes</description>
-    <time>1755526029.25</time>
+    <description>/api/haproxy/settings/set_backend/99263013-29ce-4892-b3d0-50b24fb3b139 made changes</description>
+    <time>1755526045.62</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -1662,7 +1662,7 @@ XYyEMr6yf4hHsEfIxtPmAAAAF2JhcmlzQGFsa2EtYXV0b3RlaWxlLmRlAQIDBAUG&#13;
       </validations>
       <actions/>
     </AcmeClient>
-    <HAProxy version="4.1.0" persisted_at="1755526029.25">
+    <HAProxy version="4.1.0" persisted_at="1755526045.62">
       <general>
         <enabled>1</enabled>
         <gracefulStop>0</gracefulStop>
@@ -1934,7 +1934,7 @@ XYyEMr6yf4hHsEfIxtPmAAAAF2JhcmlzQGFsa2EtYXV0b3RlaWxlLmRlAQIDBAUG&#13;
           <tuning_noport>0</tuning_noport>
           <tuning_httpreuse>safe</tuning_httpreuse>
           <tuning_caching>0</tuning_caching>
-          <linkedActions>f642c16e-d193-48c5-9a1d-9a67d947fed8</linkedActions>
+          <linkedActions/>
           <linkedErrorfiles/>
         </backend>
       </backends>
