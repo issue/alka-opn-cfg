@@ -505,8 +505,8 @@ XYyEMr6yf4hHsEfIxtPmAAAAF2JhcmlzQGFsa2EtYXV0b3RlaWxlLmRlAQIDBAUG&#13;
   </ntpd>
   <revision>
     <username>root@192.168.1.195</username>
-    <description>/api/haproxy/settings/set_backend/544c035f-97b8-4c85-87ce-04deed551886 made changes</description>
-    <time>1755526687.30</time>
+    <description>/api/haproxy/settings/set_backend/99263013-29ce-4892-b3d0-50b24fb3b139 made changes</description>
+    <time>1755526873.18</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -1662,7 +1662,7 @@ XYyEMr6yf4hHsEfIxtPmAAAAF2JhcmlzQGFsa2EtYXV0b3RlaWxlLmRlAQIDBAUG&#13;
       </validations>
       <actions/>
     </AcmeClient>
-    <HAProxy version="4.1.0" persisted_at="1755526687.30">
+    <HAProxy version="4.1.0" persisted_at="1755526873.18">
       <general>
         <enabled>1</enabled>
         <gracefulStop>0</gracefulStop>
@@ -1886,7 +1886,7 @@ XYyEMr6yf4hHsEfIxtPmAAAAF2JhcmlzQGFsa2EtYXV0b3RlaWxlLmRlAQIDBAUG&#13;
           <algorithm>source</algorithm>
           <random_draws>2</random_draws>
           <proxyProtocol/>
-          <linkedServers/>
+          <linkedServers>14fd1226-1099-46f1-99f7-b2a4a24de881</linkedServers>
           <linkedFcgi/>
           <linkedResolver/>
           <resolverOpts/>
