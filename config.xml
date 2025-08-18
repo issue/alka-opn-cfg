@@ -149,17 +149,15 @@ XYyEMr6yf4hHsEfIxtPmAAAAF2JhcmlzQGFsa2EtYXV0b3RlaWxlLmRlAQIDBAUG&#13;
       <descr>WAN</descr>
     </wan>
     <lan>
-      <enable>1</enable>
       <if>ix1</if>
+      <descr>LAN</descr>
+      <enable>1</enable>
+      <spoofmac/>
       <ipaddr>192.168.1.1</ipaddr>
       <subnet>24</subnet>
       <ipaddrv6>track6</ipaddrv6>
-      <subnetv6>64</subnetv6>
-      <media/>
-      <mediaopt/>
       <track6-interface>wan</track6-interface>
       <track6-prefix-id>0</track6-prefix-id>
-      <descr>LAN</descr>
     </lan>
     <lo0>
       <internal_dynamic>1</internal_dynamic>
@@ -502,8 +500,8 @@ XYyEMr6yf4hHsEfIxtPmAAAAF2JhcmlzQGFsa2EtYXV0b3RlaWxlLmRlAQIDBAUG&#13;
   </ntpd>
   <revision>
     <username>root@192.168.1.195</username>
-    <description>/system_advanced_network.php made changes</description>
-    <time>1755520709.55</time>
+    <description>/interfaces.php made changes</description>
+    <time>1755520717.73</time>
   </revision>
   <OPNsense>
     <wireguard>
