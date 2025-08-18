@@ -505,8 +505,8 @@ XYyEMr6yf4hHsEfIxtPmAAAAF2JhcmlzQGFsa2EtYXV0b3RlaWxlLmRlAQIDBAUG&#13;
   </ntpd>
   <revision>
     <username>root@192.168.1.195</username>
-    <description>/api/haproxy/settings/set_backend/99263013-29ce-4892-b3d0-50b24fb3b139 made changes</description>
-    <time>1755526873.18</time>
+    <description>/api/firewall/alias/set made changes</description>
+    <time>1755527950.24</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -723,9 +723,9 @@ XYyEMr6yf4hHsEfIxtPmAAAAF2JhcmlzQGFsa2EtYXV0b3RlaWxlLmRlAQIDBAUG&#13;
       <Lvtemplate version="0.0.1" persisted_at="1755430128.13">
         <templates/>
       </Lvtemplate>
-      <Alias version="1.0.1" persisted_at="1755430128.62">
+      <Alias version="1.0.1" persisted_at="1755527950.24">
         <geoip>
-          <url/>
+          <url>https://801096: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@download.maxmind.com/geoip/databases/GeoLite2-Country-CSV/download?suffix=zip</url>
         </geoip>
         <aliases/>
       </Alias>
