@@ -501,9 +501,9 @@ XYyEMr6yf4hHsEfIxtPmAAAAF2JhcmlzQGFsa2EtYXV0b3RlaWxlLmRlAQIDBAUG&#13;
     <prefer>0.opnsense.pool.ntp.org</prefer>
   </ntpd>
   <revision>
-    <username>root@192.168.1.195</username>
-    <description>/api/zenarmor/configuration/license_detail made changes</description>
-    <time>1755503830.85</time>
+    <username>(system)@192.168.1.195</username>
+    <description>/api/zenarmor/redirect/cloud_register made changes</description>
+    <time>1755503923.69</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -1136,7 +1136,7 @@ XYyEMr6yf4hHsEfIxtPmAAAAF2JhcmlzQGFsa2EtYXV0b3RlaWxlLmRlAQIDBAUG&#13;
       <hosts/>
       <aliases/>
     </unboundplus>
-    <Zenarmor version="0.0.0" persisted_at="1755503830.85">
+    <Zenarmor version="0.0.0" persisted_at="1755503923.69">
       <zenvpn>
         <enabled>1</enabled>
       </zenvpn>
@@ -1171,8 +1171,8 @@ XYyEMr6yf4hHsEfIxtPmAAAAF2JhcmlzQGFsa2EtYXV0b3RlaWxlLmRlAQIDBAUG&#13;
         <hwbypass>false</hwbypass>
         <SenseiTempSize>50</SenseiTempSize>
         <CloudManagementEnable>true</CloudManagementEnable>
-        <CloudManagementAdmin/>
-        <CloudManagementUUID/>
+        <CloudManagementAdmin>baris@alka-autoteile.de</CloudManagementAdmin>
+        <CloudManagementUUID>db8736b5-3361-4a38-83fb-bc47fcc2fc75</CloudManagementUUID>
         <license>
           <plan/>
           <key/>
