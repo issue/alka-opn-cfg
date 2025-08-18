@@ -94,7 +94,7 @@
     <firmware version="1.0.1" persisted_at="1755433370.61">
       <mirror/>
       <flavour/>
-      <plugins>os-cpu-microcode-intel,os-git-backup,os-haproxy,os-sensei,os-sensei-updater,os-sunnyvalley</plugins>
+      <plugins>os-cpu-microcode-intel,os-git-backup,os-haproxy,os-sensei,os-sensei-agent,os-sensei-updater,os-sunnyvalley</plugins>
       <type/>
       <subscription/>
       <reboot>0</reboot>
@@ -501,9 +501,9 @@ XYyEMr6yf4hHsEfIxtPmAAAAF2JhcmlzQGFsa2EtYXV0b3RlaWxlLmRlAQIDBAUG&#13;
     <prefer>0.opnsense.pool.ntp.org</prefer>
   </ntpd>
   <revision>
-    <username>root@192.168.1.195</username>
-    <description>/api/zenarmor/configuration/cloud_management made changes</description>
-    <time>1755503739.73</time>
+    <username>(system)</username>
+    <description>/usr/local/opnsense/scripts/firmware/register.php made changes</description>
+    <time>1755503751.44</time>
   </revision>
   <OPNsense>
     <wireguard>
