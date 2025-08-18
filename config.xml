@@ -502,8 +502,8 @@ XYyEMr6yf4hHsEfIxtPmAAAAF2JhcmlzQGFsa2EtYXV0b3RlaWxlLmRlAQIDBAUG&#13;
   </ntpd>
   <revision>
     <username>root@192.168.1.195</username>
-    <description>/diag_backup.php made changes</description>
-    <time>1755503578.84</time>
+    <description>/api/zenarmor/configuration/cloud_management made changes</description>
+    <time>1755503739.73</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -1136,7 +1136,7 @@ XYyEMr6yf4hHsEfIxtPmAAAAF2JhcmlzQGFsa2EtYXV0b3RlaWxlLmRlAQIDBAUG&#13;
       <hosts/>
       <aliases/>
     </unboundplus>
-    <Zenarmor version="0.0.0" persisted_at="1755432951.65">
+    <Zenarmor version="0.0.0" persisted_at="1755503739.73">
       <zenvpn>
         <enabled>1</enabled>
       </zenvpn>
@@ -1170,7 +1170,7 @@ XYyEMr6yf4hHsEfIxtPmAAAAF2JhcmlzQGFsa2EtYXV0b3RlaWxlLmRlAQIDBAUG&#13;
         <heartbeatData>true</heartbeatData>
         <hwbypass>false</hwbypass>
         <SenseiTempSize>50</SenseiTempSize>
-        <CloudManagementEnable>false</CloudManagementEnable>
+        <CloudManagementEnable>true</CloudManagementEnable>
         <CloudManagementAdmin/>
         <CloudManagementUUID/>
         <license>
