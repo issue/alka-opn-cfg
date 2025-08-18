@@ -505,8 +505,8 @@ XYyEMr6yf4hHsEfIxtPmAAAAF2JhcmlzQGFsa2EtYXV0b3RlaWxlLmRlAQIDBAUG&#13;
   </ntpd>
   <revision>
     <username>root@192.168.1.195</username>
-    <description>/api/haproxy/settings/add_server/ made changes</description>
-    <time>1755525932.62</time>
+    <description>/api/haproxy/settings/add_acl/ made changes</description>
+    <time>1755525954.48</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -1662,7 +1662,7 @@ XYyEMr6yf4hHsEfIxtPmAAAAF2JhcmlzQGFsa2EtYXV0b3RlaWxlLmRlAQIDBAUG&#13;
       </validations>
       <actions/>
     </AcmeClient>
-    <HAProxy version="4.1.0" persisted_at="1755525932.62">
+    <HAProxy version="4.1.0" persisted_at="1755525954.48">
       <general>
         <enabled>1</enabled>
         <gracefulStop>0</gracefulStop>
@@ -1952,6 +1952,83 @@ XYyEMr6yf4hHsEfIxtPmAAAAF2JhcmlzQGFsa2EtYXV0b3RlaWxlLmRlAQIDBAUG&#13;
           <hdr_beg/>
           <hdr_end/>
           <hdr>cloud.alka-it.de</hdr>
+          <hdr_reg/>
+          <hdr_sub/>
+          <path_beg/>
+          <path_end/>
+          <path/>
+          <path_reg/>
+          <path_dir/>
+          <path_sub/>
+          <cust_hdr_beg_name/>
+          <cust_hdr_beg/>
+          <cust_hdr_end_name/>
+          <cust_hdr_end/>
+          <cust_hdr_name/>
+          <cust_hdr/>
+          <cust_hdr_reg_name/>
+          <cust_hdr_reg/>
+          <cust_hdr_sub_name/>
+          <cust_hdr_sub/>
+          <url_param/>
+          <url_param_value/>
+          <ssl_c_verify_code/>
+          <ssl_c_ca_commonname/>
+          <ssl_hello_type>x1</ssl_hello_type>
+          <src/>
+          <src_bytes_in_rate_comparison>gt</src_bytes_in_rate_comparison>
+          <src_bytes_in_rate/>
+          <src_bytes_out_rate_comparison>gt</src_bytes_out_rate_comparison>
+          <src_bytes_out_rate/>
+          <src_conn_cnt_comparison>gt</src_conn_cnt_comparison>
+          <src_conn_cnt/>
+          <src_conn_cur_comparison>gt</src_conn_cur_comparison>
+          <src_conn_cur/>
+          <src_conn_rate_comparison>gt</src_conn_rate_comparison>
+          <src_conn_rate/>
+          <src_http_err_cnt_comparison>gt</src_http_err_cnt_comparison>
+          <src_http_err_cnt/>
+          <src_http_err_rate_comparison>gt</src_http_err_rate_comparison>
+          <src_http_err_rate/>
+          <src_http_req_cnt_comparison>gt</src_http_req_cnt_comparison>
+          <src_http_req_cnt/>
+          <src_http_req_rate_comparison>gt</src_http_req_rate_comparison>
+          <src_http_req_rate/>
+          <src_kbytes_in_comparison>gt</src_kbytes_in_comparison>
+          <src_kbytes_in/>
+          <src_kbytes_out_comparison>gt</src_kbytes_out_comparison>
+          <src_kbytes_out/>
+          <src_port_comparison>gt</src_port_comparison>
+          <src_port/>
+          <src_sess_cnt_comparison>gt</src_sess_cnt_comparison>
+          <src_sess_cnt/>
+          <src_sess_rate_comparison>gt</src_sess_rate_comparison>
+          <src_sess_rate/>
+          <nbsrv/>
+          <nbsrv_backend/>
+          <ssl_fc_sni/>
+          <ssl_sni/>
+          <ssl_sni_sub/>
+          <ssl_sni_beg/>
+          <ssl_sni_end/>
+          <ssl_sni_reg/>
+          <custom_acl/>
+          <value/>
+          <urlparam/>
+          <queryBackend/>
+          <allowedUsers/>
+          <allowedGroups/>
+        </acl>
+        <acl uuid="f7418d09-4f01-4678-b7e3-1f678b4798f2">
+          <id>68a3334273cc41.84716725</id>
+          <name>alkaurlaub</name>
+          <description/>
+          <expression>hdr</expression>
+          <negate>0</negate>
+          <caseSensitive>0</caseSensitive>
+          <hdr_beg/>
+          <hdr_end/>
+          <hdr>urlaub.alka-it.de</hdr>
           <hdr_reg/>
           <hdr_sub/>
           <path_beg/>
