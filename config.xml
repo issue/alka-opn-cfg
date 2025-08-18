@@ -582,8 +582,8 @@ XYyEMr6yf4hHsEfIxtPmAAAAF2JhcmlzQGFsa2EtYXV0b3RlaWxlLmRlAQIDBAUG&#13;
   </ntpd>
   <revision>
     <username>root@192.168.1.195</username>
-    <description>/firewall_nat_edit.php made changes</description>
-    <time>1755532599.52</time>
+    <description>/firewall_nat.php made changes</description>
+    <time>1755532743.96</time>
   </revision>
   <OPNsense>
     <wireguard>
