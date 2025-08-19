@@ -581,8 +581,8 @@ XYyEMr6yf4hHsEfIxtPmAAAAF2JhcmlzQGFsa2EtYXV0b3RlaWxlLmRlAQIDBAUG&#13;
   </ntpd>
   <revision>
     <username>root@192.168.1.195</username>
-    <description>/api/redis/settings/set made changes</description>
-    <time>1755599035.21</time>
+    <description>/api/ntopng/general/set made changes</description>
+    <time>1755599041.30</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -2736,7 +2736,7 @@ KP</content>
       </maintenance>
     </HAProxy>
     <ntopng>
-      <general version="0.0.2" persisted_at="1755598926.81">
+      <general version="0.0.2" persisted_at="1755599041.30">
         <enabled>1</enabled>
         <interface/>
         <httpport>3000</httpport>
