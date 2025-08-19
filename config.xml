@@ -581,8 +581,8 @@ XYyEMr6yf4hHsEfIxtPmAAAAF2JhcmlzQGFsa2EtYXV0b3RlaWxlLmRlAQIDBAUG&#13;
   </ntpd>
   <revision>
     <username>root@192.168.1.195</username>
-    <description>/api/ntopng/general/set made changes</description>
-    <time>1755598926.81</time>
+    <description>/api/redis/settings/set made changes</description>
+    <time>1755599035.21</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -2745,6 +2745,32 @@ KP</content>
         <dnsmode>1</dnsmode>
       </general>
     </ntopng>
+    <redis version="0.0.0" persisted_at="1755599035.21">
+      <general>
+        <enabled>1</enabled>
+        <listen/>
+        <protected_mode>1</protected_mode>
+        <port>6379</port>
+        <log_level>warning</log_level>
+        <syslog_enabled>0</syslog_enabled>
+        <syslog_facility>LOCAL0</syslog_facility>
+        <databases>16</databases>
+      </general>
+      <security>
+        <password/>
+        <disable_commands/>
+      </security>
+      <limits>
+        <maxclients>10000</maxclients>
+        <maxmemory/>
+        <maxmemory_policy>noeviction</maxmemory_policy>
+        <maxmemory_samples>5</maxmemory_samples>
+      </limits>
+      <slowlog>
+        <slower_than>10000</slower_than>
+        <max_len>128</max_len>
+      </slowlog>
+    </redis>
   </OPNsense>
   <hasync version="1.0.2" persisted_at="1755430128.04">
     <disablepreempt>0</disablepreempt>
