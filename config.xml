@@ -581,8 +581,8 @@ XYyEMr6yf4hHsEfIxtPmAAAAF2JhcmlzQGFsa2EtYXV0b3RlaWxlLmRlAQIDBAUG&#13;
   </ntpd>
   <revision>
     <username>(system)</username>
-    <description>/usr/local/opnsense/scripts/firmware/register.php made changes</description>
-    <time>1755598486.89</time>
+    <description>/usr/local/opnsense/mvc/script/run_migrations.php made changes</description>
+    <time>1755598694.62</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -2735,6 +2735,16 @@ KP</content>
         </cronjobs>
       </maintenance>
     </HAProxy>
+    <ntopng>
+      <general version="0.0.2" persisted_at="1755598694.62">
+        <enabled>0</enabled>
+        <interface/>
+        <httpport>3000</httpport>
+        <httpsport/>
+        <cert/>
+        <dnsmode/>
+      </general>
+    </ntopng>
   </OPNsense>
   <hasync version="1.0.2" persisted_at="1755430128.04">
     <disablepreempt>0</disablepreempt>
