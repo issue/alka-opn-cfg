@@ -580,9 +580,9 @@ XYyEMr6yf4hHsEfIxtPmAAAAF2JhcmlzQGFsa2EtYXV0b3RlaWxlLmRlAQIDBAUG&#13;
     <prefer>0.opnsense.pool.ntp.org</prefer>
   </ntpd>
   <revision>
-    <username>(system)</username>
-    <description>/usr/local/opnsense/scripts/firmware/register.php made changes</description>
-    <time>1755598824.72</time>
+    <username>root@192.168.1.195</username>
+    <description>/api/ntopng/general/set made changes</description>
+    <time>1755598926.81</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -2736,13 +2736,13 @@ KP</content>
       </maintenance>
     </HAProxy>
     <ntopng>
-      <general version="0.0.2" persisted_at="1755598694.62">
-        <enabled>0</enabled>
+      <general version="0.0.2" persisted_at="1755598926.81">
+        <enabled>1</enabled>
         <interface/>
         <httpport>3000</httpport>
-        <httpsport/>
-        <cert/>
-        <dnsmode/>
+        <httpsport>3333</httpsport>
+        <cert>68a1d23cb744a</cert>
+        <dnsmode>1</dnsmode>
       </general>
     </ntopng>
   </OPNsense>
