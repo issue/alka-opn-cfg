@@ -602,7 +602,7 @@ XYyEMr6yf4hHsEfIxtPmAAAAF2JhcmlzQGFsa2EtYXV0b3RlaWxlLmRlAQIDBAUG&#13;
   <revision>
     <username>root@192.168.1.195</username>
     <description>/api/dhcrelay/settings/add_relay/ made changes</description>
-    <time>1755672341.23</time>
+    <time>1755672357.63</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -781,7 +781,7 @@ XYyEMr6yf4hHsEfIxtPmAAAAF2JhcmlzQGFsa2EtYXV0b3RlaWxlLmRlAQIDBAUG&#13;
         </job>
       </jobs>
     </cron>
-    <DHCRelay version="1.0.1" persisted_at="1755672341.23">
+    <DHCRelay version="1.0.1" persisted_at="1755672357.63">
       <relays uuid="30377f65-d89a-4ee4-8878-853f9776aa20">
         <enabled>1</enabled>
         <interface>lan</interface>
@@ -809,6 +809,12 @@ XYyEMr6yf4hHsEfIxtPmAAAAF2JhcmlzQGFsa2EtYXV0b3RlaWxlLmRlAQIDBAUG&#13;
       <relays uuid="f82a50f6-7565-4129-97f6-6db93fd8dc99">
         <enabled>1</enabled>
         <interface>opt2</interface>
+        <destination>5466cde3-3adc-4988-b6ec-f03ef9950720</destination>
+        <agent_info>0</agent_info>
+      </relays>
+      <relays uuid="54319467-2f2d-4e18-9d65-210d64b0fbaa">
+        <enabled>1</enabled>
+        <interface>opt6</interface>
         <destination>5466cde3-3adc-4988-b6ec-f03ef9950720</destination>
         <agent_info>0</agent_info>
       </relays>
