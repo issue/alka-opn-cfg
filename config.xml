@@ -577,8 +577,8 @@ XYyEMr6yf4hHsEfIxtPmAAAAF2JhcmlzQGFsa2EtYXV0b3RlaWxlLmRlAQIDBAUG&#13;
   </ntpd>
   <revision>
     <username>root@192.168.1.195</username>
-    <description>/api/interfaces/vlan_settings/set_item/a1416698-0fcf-40e9-a566-22105a927a50 made changes</description>
-    <time>1755679420.61</time>
+    <description>/interfaces.php made changes</description>
+    <time>1755679473.79</time>
   </revision>
   <OPNsense>
     <wireguard>
