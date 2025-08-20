@@ -577,8 +577,8 @@ XYyEMr6yf4hHsEfIxtPmAAAAF2JhcmlzQGFsa2EtYXV0b3RlaWxlLmRlAQIDBAUG&#13;
   </ntpd>
   <revision>
     <username>root@192.168.1.195</username>
-    <description>/interfaces_assign.php made changes</description>
-    <time>1755679325.56</time>
+    <description>/api/interfaces/vlan_settings/set_item/ee602fed-aa1b-436d-b7c0-2da5e74d97ba made changes</description>
+    <time>1755679357.13</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -2809,7 +2809,7 @@ KP</content>
   <virtualip version="1.0.1" persisted_at="1755430129.25">
     <vip/>
   </virtualip>
-  <vlans version="1.0.0" persisted_at="1755677049.13">
+  <vlans version="1.0.0" persisted_at="1755679357.13">
     <vlan uuid="f5924b49-43ca-4a29-960f-24100631fac0">
       <if>em0</if>
       <tag>7</tag>
@@ -2859,7 +2859,7 @@ KP</content>
       <vlanif>vlan0.1.208</vlanif>
     </vlan>
     <vlan uuid="ee602fed-aa1b-436d-b7c0-2da5e74d97ba">
-      <if>ix1</if>
+      <if>ix0</if>
       <tag>205</tag>
       <pcp>0</pcp>
       <proto/>
