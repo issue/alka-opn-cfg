@@ -602,8 +602,8 @@ XYyEMr6yf4hHsEfIxtPmAAAAF2JhcmlzQGFsa2EtYXV0b3RlaWxlLmRlAQIDBAUG&#13;
   </ntpd>
   <revision>
     <username>root@192.168.1.195</username>
-    <description>/interfaces.php made changes</description>
-    <time>1755676795.87</time>
+    <description>/services_dhcpv6.php made changes</description>
+    <time>1755676917.16</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -2926,7 +2926,6 @@ KP</content>
   <dhcpdv6>
     <lan>
       <ramode>disabled</ramode>
-      <enable>-1</enable>
     </lan>
   </dhcpdv6>
   <cert uuid="b80c54e8-cebf-4327-ab50-cb4f9f546324">
