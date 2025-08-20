@@ -243,8 +243,12 @@ XYyEMr6yf4hHsEfIxtPmAAAAF2JhcmlzQGFsa2EtYXV0b3RlaWxlLmRlAQIDBAUG&#13;
       <subnet>24</subnet>
     </opt6>
     <opt2>
-      <descr>nvr</descr>
       <if>vlan01</if>
+      <descr>nvr</descr>
+      <enable>1</enable>
+      <spoofmac/>
+      <ipaddr>172.16.205.1</ipaddr>
+      <subnet>24</subnet>
     </opt2>
   </interfaces>
   <dnsmasq version="1.0.7" persisted_at="1755447421.76">
@@ -573,8 +577,8 @@ XYyEMr6yf4hHsEfIxtPmAAAAF2JhcmlzQGFsa2EtYXV0b3RlaWxlLmRlAQIDBAUG&#13;
   </ntpd>
   <revision>
     <username>root@192.168.1.195</username>
-    <description>/interfaces_assign.php made changes</description>
-    <time>1755677063.75</time>
+    <description>/interfaces.php made changes</description>
+    <time>1755677082.13</time>
   </revision>
   <OPNsense>
     <wireguard>
