@@ -577,8 +577,8 @@ XYyEMr6yf4hHsEfIxtPmAAAAF2JhcmlzQGFsa2EtYXV0b3RlaWxlLmRlAQIDBAUG&#13;
   </ntpd>
   <revision>
     <username>root@192.168.1.195</username>
-    <description>/interfaces.php made changes</description>
-    <time>1755679473.79</time>
+    <description>/api/firewall/alias/add_item/ made changes</description>
+    <time>1755681265.16</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -807,7 +807,7 @@ XYyEMr6yf4hHsEfIxtPmAAAAF2JhcmlzQGFsa2EtYXV0b3RlaWxlLmRlAQIDBAUG&#13;
       <Lvtemplate version="0.0.1" persisted_at="1755430128.13">
         <templates/>
       </Lvtemplate>
-      <Alias version="1.0.1" persisted_at="1755528401.04">
+      <Alias version="1.0.1" persisted_at="1755681265.16">
         <geoip>
           <url>https://801096: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@download.maxmind.com/geoip/databases/GeoLite2-Country-CSV/download?suffix=zip</url>
         </geoip>
@@ -823,6 +823,29 @@ XYyEMr6yf4hHsEfIxtPmAAAAF2JhcmlzQGFsa2EtYXV0b3RlaWxlLmRlAQIDBAUG&#13;
             <updatefreq/>
             <content>CN
 KP</content>
+            <password/>
+            <username/>
+            <authtype/>
+            <expire/>
+            <categories/>
+            <description/>
+          </alias>
+          <alias uuid="cdc6ecc7-c4a2-4741-8fea-0908e707bf5e">
+            <enabled>1</enabled>
+            <name>alka_networks</name>
+            <type>network</type>
+            <path_expression/>
+            <proto/>
+            <interface/>
+            <counters>0</counters>
+            <updatefreq/>
+            <content>__lan_network
+__opt1_network
+__opt3_network
+__opt4_network
+__opt5_network
+__opt6_network
+__opt2_network</content>
             <password/>
             <username/>
             <authtype/>
