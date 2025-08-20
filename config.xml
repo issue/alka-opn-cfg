@@ -577,8 +577,8 @@ XYyEMr6yf4hHsEfIxtPmAAAAF2JhcmlzQGFsa2EtYXV0b3RlaWxlLmRlAQIDBAUG&#13;
   </ntpd>
   <revision>
     <username>root@192.168.1.195</username>
-    <description>/services_dhcpv6.php made changes</description>
-    <time>1755677530.03</time>
+    <description>/services_router_advertisements.php made changes</description>
+    <time>1755677643.57</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -2900,7 +2900,6 @@ KP</content>
   <dhcpd/>
   <dhcpdv6>
     <lan>
-      <ramode>disabled</ramode>
       <enable>-1</enable>
     </lan>
   </dhcpdv6>
