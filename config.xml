@@ -578,7 +578,7 @@ XYyEMr6yf4hHsEfIxtPmAAAAF2JhcmlzQGFsa2EtYXV0b3RlaWxlLmRlAQIDBAUG&#13;
   <revision>
     <username>root@192.168.1.195</username>
     <description>/services_router_advertisements.php made changes</description>
-    <time>1755677657.05</time>
+    <time>1755677659.86</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -2901,6 +2901,7 @@ KP</content>
   <dhcpdv6>
     <lan>
       <enable>-1</enable>
+      <ramode>disabled</ramode>
     </lan>
   </dhcpdv6>
   <cert uuid="b80c54e8-cebf-4327-ab50-cb4f9f546324">
