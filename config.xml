@@ -182,6 +182,7 @@ XYyEMr6yf4hHsEfIxtPmAAAAF2JhcmlzQGFsa2EtYXV0b3RlaWxlLmRlAQIDBAUG&#13;
       <disablechecksumoffloading>1</disablechecksumoffloading>
       <disablesegmentationoffloading>1</disablesegmentationoffloading>
       <disablelargereceiveoffloading>1</disablelargereceiveoffloading>
+      <disablevlanhwfilter>1</disablevlanhwfilter>
     </lan>
     <lo0>
       <internal_dynamic>1</internal_dynamic>
@@ -601,8 +602,8 @@ XYyEMr6yf4hHsEfIxtPmAAAAF2JhcmlzQGFsa2EtYXV0b3RlaWxlLmRlAQIDBAUG&#13;
   </ntpd>
   <revision>
     <username>root@192.168.1.195</username>
-    <description>/services_dhcpv6.php made changes</description>
-    <time>1755676694.91</time>
+    <description>/interfaces.php made changes</description>
+    <time>1755676709.64</time>
   </revision>
   <OPNsense>
     <wireguard>
