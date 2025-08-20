@@ -425,6 +425,28 @@ XYyEMr6yf4hHsEfIxtPmAAAAF2JhcmlzQGFsa2EtYXV0b3RlaWxlLmRlAQIDBAUG&#13;
         <description>/firewall_rules_edit.php made changes</description>
       </created>
     </rule>
+    <rule uuid="4d539131-1e5c-43a1-8aca-771e581c566d">
+      <type>pass</type>
+      <associated-rule-id>nat_68a34d3763bb80.73421143</associated-rule-id>
+      <source>
+        <any>1</any>
+      </source>
+      <interface>wan</interface>
+      <statetype>keep state</statetype>
+      <protocol>tcp/udp</protocol>
+      <ipprotocol>inet</ipprotocol>
+      <destination>
+        <address>192.168.1.103</address>
+        <port>5027</port>
+      </destination>
+      <descr/>
+      <category/>
+      <created>
+        <username>root@192.168.1.195</username>
+        <time>1755532599.41</time>
+        <description>/firewall_nat_edit.php made changes</description>
+      </created>
+    </rule>
     <rule uuid="8a3ac2fc-ba34-4683-bab7-0480323c72cf">
       <type>pass</type>
       <ipprotocol>inet</ipprotocol>
@@ -498,6 +520,32 @@ XYyEMr6yf4hHsEfIxtPmAAAAF2JhcmlzQGFsa2EtYXV0b3RlaWxlLmRlAQIDBAUG&#13;
         <description>/firewall_rules_edit.php made changes</description>
       </created>
     </rule>
+    <rule uuid="4608f25b-dc10-4d52-a933-bd057fef8dbd">
+      <type>pass</type>
+      <interface>opt3</interface>
+      <ipprotocol>inet</ipprotocol>
+      <statetype>keep state</statetype>
+      <descr>Default allow GUEST to any rule</descr>
+      <direction>in</direction>
+      <quick>1</quick>
+      <source>
+        <network>opt3</network>
+      </source>
+      <destination>
+        <address>alka_networks</address>
+        <not>1</not>
+      </destination>
+      <updated>
+        <username>root@192.168.1.195</username>
+        <time>1755681301.69</time>
+        <description>/firewall_rules_edit.php made changes</description>
+      </updated>
+      <created>
+        <username>root@192.168.1.195</username>
+        <time>1755681301.69</time>
+        <description>/firewall_rules_edit.php made changes</description>
+      </created>
+    </rule>
     <rule uuid="ac20500e-cf65-4af0-8202-c4df1a2d49e9">
       <type>pass</type>
       <interface>opt4</interface>
@@ -546,28 +594,6 @@ XYyEMr6yf4hHsEfIxtPmAAAAF2JhcmlzQGFsa2EtYXV0b3RlaWxlLmRlAQIDBAUG&#13;
         <description>/firewall_rules_edit.php made changes</description>
       </created>
     </rule>
-    <rule>
-      <type>pass</type>
-      <associated-rule-id>nat_68a34d3763bb80.73421143</associated-rule-id>
-      <source>
-        <any>1</any>
-      </source>
-      <interface>wan</interface>
-      <statetype>keep state</statetype>
-      <protocol>tcp/udp</protocol>
-      <ipprotocol>inet</ipprotocol>
-      <destination>
-        <address>192.168.1.103</address>
-        <port>5027</port>
-      </destination>
-      <descr/>
-      <category/>
-      <created>
-        <username>root@192.168.1.195</username>
-        <time>1755532599.41</time>
-        <description>/firewall_nat_edit.php made changes</description>
-      </created>
-    </rule>
   </filter>
   <rrd>
     <enable/>
@@ -577,8 +603,8 @@ XYyEMr6yf4hHsEfIxtPmAAAAF2JhcmlzQGFsa2EtYXV0b3RlaWxlLmRlAQIDBAUG&#13;
   </ntpd>
   <revision>
     <username>root@192.168.1.195</username>
-    <description>/api/firewall/alias/set made changes</description>
-    <time>1755681267.15</time>
+    <description>/firewall_rules_edit.php made changes</description>
+    <time>1755681301.82</time>
   </revision>
   <OPNsense>
     <wireguard>
