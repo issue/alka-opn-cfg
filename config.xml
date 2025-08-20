@@ -601,8 +601,8 @@ XYyEMr6yf4hHsEfIxtPmAAAAF2JhcmlzQGFsa2EtYXV0b3RlaWxlLmRlAQIDBAUG&#13;
   </ntpd>
   <revision>
     <username>root@192.168.1.195</username>
-    <description>/services_dhcpv6.php made changes</description>
-    <time>1755672037.42</time>
+    <description>/api/dhcrelay/settings/add_relay/ made changes</description>
+    <time>1755672341.23</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -781,7 +781,7 @@ XYyEMr6yf4hHsEfIxtPmAAAAF2JhcmlzQGFsa2EtYXV0b3RlaWxlLmRlAQIDBAUG&#13;
         </job>
       </jobs>
     </cron>
-    <DHCRelay version="1.0.1" persisted_at="1755447610.09">
+    <DHCRelay version="1.0.1" persisted_at="1755672341.23">
       <relays uuid="30377f65-d89a-4ee4-8878-853f9776aa20">
         <enabled>1</enabled>
         <interface>lan</interface>
@@ -803,6 +803,12 @@ XYyEMr6yf4hHsEfIxtPmAAAAF2JhcmlzQGFsa2EtYXV0b3RlaWxlLmRlAQIDBAUG&#13;
       <relays uuid="d78ed0b7-813d-4395-8d6b-bff29e95dd8d">
         <enabled>1</enabled>
         <interface>opt4</interface>
+        <destination>5466cde3-3adc-4988-b6ec-f03ef9950720</destination>
+        <agent_info>0</agent_info>
+      </relays>
+      <relays uuid="f82a50f6-7565-4129-97f6-6db93fd8dc99">
+        <enabled>1</enabled>
+        <interface>opt2</interface>
         <destination>5466cde3-3adc-4988-b6ec-f03ef9950720</destination>
         <agent_info>0</agent_info>
       </relays>
