@@ -212,14 +212,6 @@ XYyEMr6yf4hHsEfIxtPmAAAAF2JhcmlzQGFsa2EtYXV0b3RlaWxlLmRlAQIDBAUG&#13;
       <ipaddr>172.16.204.1</ipaddr>
       <subnet>24</subnet>
     </opt1>
-    <opt2>
-      <if>vlan0.1.205</if>
-      <descr>nvr</descr>
-      <enable>1</enable>
-      <spoofmac/>
-      <ipaddr>172.16.205.1</ipaddr>
-      <subnet>24</subnet>
-    </opt2>
     <opt3>
       <if>vlan0.1.206</if>
       <descr>guest_wifi</descr>
@@ -473,30 +465,6 @@ XYyEMr6yf4hHsEfIxtPmAAAAF2JhcmlzQGFsa2EtYXV0b3RlaWxlLmRlAQIDBAUG&#13;
         <description>/firewall_rules_edit.php made changes</description>
       </created>
     </rule>
-    <rule uuid="2a605934-c734-439b-8bdc-a4c71934e90e">
-      <type>pass</type>
-      <interface>opt2</interface>
-      <ipprotocol>inet</ipprotocol>
-      <statetype>keep state</statetype>
-      <direction>in</direction>
-      <quick>1</quick>
-      <source>
-        <any>1</any>
-      </source>
-      <destination>
-        <any>1</any>
-      </destination>
-      <updated>
-        <username>root@192.168.1.195</username>
-        <time>1755436854.24</time>
-        <description>/firewall_rules_edit.php made changes</description>
-      </updated>
-      <created>
-        <username>root@192.168.1.195</username>
-        <time>1755436854.24</time>
-        <description>/firewall_rules_edit.php made changes</description>
-      </created>
-    </rule>
     <rule uuid="64133eb1-581f-43dd-b4ab-230425269db9">
       <type>pass</type>
       <interface>opt3</interface>
@@ -601,8 +569,8 @@ XYyEMr6yf4hHsEfIxtPmAAAAF2JhcmlzQGFsa2EtYXV0b3RlaWxlLmRlAQIDBAUG&#13;
   </ntpd>
   <revision>
     <username>root@192.168.1.195</username>
-    <description>/services_dhcpv6.php made changes</description>
-    <time>1755676966.58</time>
+    <description>/interfaces_assign.php made changes</description>
+    <time>1755677024.89</time>
   </revision>
   <OPNsense>
     <wireguard>
