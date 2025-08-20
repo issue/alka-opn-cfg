@@ -577,8 +577,8 @@ XYyEMr6yf4hHsEfIxtPmAAAAF2JhcmlzQGFsa2EtYXV0b3RlaWxlLmRlAQIDBAUG&#13;
   </ntpd>
   <revision>
     <username>root@192.168.1.195</username>
-    <description>/services_router_advertisements.php made changes</description>
-    <time>1755677659.86</time>
+    <description>/interfaces_assign.php made changes</description>
+    <time>1755678831.08</time>
   </revision>
   <OPNsense>
     <wireguard>
