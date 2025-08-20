@@ -169,7 +169,7 @@ XYyEMr6yf4hHsEfIxtPmAAAAF2JhcmlzQGFsa2EtYXV0b3RlaWxlLmRlAQIDBAUG&#13;
       <adv_dhcp6_config_file_override_path/>
     </wan>
     <lan>
-      <if>ix1</if>
+      <if>ix0</if>
       <descr>LAN</descr>
       <enable>1</enable>
       <spoofmac/>
@@ -578,7 +578,7 @@ XYyEMr6yf4hHsEfIxtPmAAAAF2JhcmlzQGFsa2EtYXV0b3RlaWxlLmRlAQIDBAUG&#13;
   <revision>
     <username>root@192.168.1.195</username>
     <description>/interfaces_assign.php made changes</description>
-    <time>1755678831.08</time>
+    <time>1755679325.56</time>
   </revision>
   <OPNsense>
     <wireguard>
