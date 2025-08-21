@@ -680,8 +680,8 @@ XYyEMr6yf4hHsEfIxtPmAAAAF2JhcmlzQGFsa2EtYXV0b3RlaWxlLmRlAQIDBAUG&#13;
   </ntpd>
   <revision>
     <username>root@192.168.1.195</username>
-    <description>/diag_backup.php made changes</description>
-    <time>1755773905.55</time>
+    <description>/api/trafficshaper/settings/add_pipe/ made changes</description>
+    <time>1755776894.75</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -1300,8 +1300,30 @@ __opt2_network</content>
       </general>
       <destinations/>
     </Syslog>
-    <TrafficShaper version="1.0.3" persisted_at="1755430129.58">
-      <pipes/>
+    <TrafficShaper version="1.0.3" persisted_at="1755776894.75">
+      <pipes>
+        <pipe uuid="9342847b-18e5-4df4-b913-7c4f6709b15d">
+          <number>10000</number>
+          <enabled>1</enabled>
+          <bandwidth>150</bandwidth>
+          <bandwidthMetric>Mbit</bandwidthMetric>
+          <queue/>
+          <mask>none</mask>
+          <buckets/>
+          <scheduler>fq_codel</scheduler>
+          <codel_enable>0</codel_enable>
+          <codel_target/>
+          <codel_interval/>
+          <codel_ecn_enable>0</codel_ecn_enable>
+          <pie_enable>0</pie_enable>
+          <fqcodel_quantum>1492</fqcodel_quantum>
+          <fqcodel_limit/>
+          <fqcodel_flows/>
+          <origin>TrafficShaper</origin>
+          <delay/>
+          <description>fq_dl</description>
+        </pipe>
+      </pipes>
       <queues/>
       <rules/>
     </TrafficShaper>
