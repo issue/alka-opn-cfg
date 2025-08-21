@@ -681,7 +681,7 @@ XYyEMr6yf4hHsEfIxtPmAAAAF2JhcmlzQGFsa2EtYXV0b3RlaWxlLmRlAQIDBAUG&#13;
   <revision>
     <username>root@192.168.1.195</username>
     <description>/api/trafficshaper/settings/add_queue/ made changes</description>
-    <time>1755777046.62</time>
+    <time>1755777063.03</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -1300,7 +1300,7 @@ __opt2_network</content>
       </general>
       <destinations/>
     </Syslog>
-    <TrafficShaper version="1.0.3" persisted_at="1755777046.62">
+    <TrafficShaper version="1.0.3" persisted_at="1755777063.03">
       <pipes>
         <pipe uuid="9342847b-18e5-4df4-b913-7c4f6709b15d">
           <number>10000</number>
@@ -1359,6 +1359,21 @@ __opt2_network</content>
           <codel_ecn_enable>0</codel_ecn_enable>
           <pie_enable>0</pie_enable>
           <description>fq_dl_queue</description>
+          <origin>TrafficShaper</origin>
+        </queue>
+        <queue uuid="f1d3748e-3a8a-45b7-b228-2626a60fc223">
+          <number>10001</number>
+          <enabled>1</enabled>
+          <pipe>158e267e-6cbf-4fd8-9666-9b14e39ddf4f</pipe>
+          <weight>100</weight>
+          <mask>none</mask>
+          <buckets/>
+          <codel_enable>0</codel_enable>
+          <codel_target/>
+          <codel_interval/>
+          <codel_ecn_enable>0</codel_ecn_enable>
+          <pie_enable>0</pie_enable>
+          <description>fq_ul_queue</description>
           <origin>TrafficShaper</origin>
         </queue>
       </queues>
