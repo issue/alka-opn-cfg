@@ -680,8 +680,8 @@ XYyEMr6yf4hHsEfIxtPmAAAAF2JhcmlzQGFsa2EtYXV0b3RlaWxlLmRlAQIDBAUG&#13;
   </ntpd>
   <revision>
     <username>root@192.168.1.195</username>
-    <description>/api/trafficshaper/settings/add_queue/ made changes</description>
-    <time>1755777063.03</time>
+    <description>/api/trafficshaper/settings/add_rule/ made changes</description>
+    <time>1755777123.22</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -1300,7 +1300,7 @@ __opt2_network</content>
       </general>
       <destinations/>
     </Syslog>
-    <TrafficShaper version="1.0.3" persisted_at="1755777063.03">
+    <TrafficShaper version="1.0.3" persisted_at="1755777123.22">
       <pipes>
         <pipe uuid="9342847b-18e5-4df4-b913-7c4f6709b15d">
           <number>10000</number>
@@ -1377,7 +1377,27 @@ __opt2_network</content>
           <origin>TrafficShaper</origin>
         </queue>
       </queues>
-      <rules/>
+      <rules>
+        <rule uuid="491de78b-ce26-44a9-ab0b-c0df35e66bce">
+          <enabled>1</enabled>
+          <sequence>1</sequence>
+          <interface>wan</interface>
+          <interface2/>
+          <proto>ip</proto>
+          <iplen/>
+          <source>any</source>
+          <source_not>0</source_not>
+          <src_port>any</src_port>
+          <destination>any</destination>
+          <destination_not>0</destination_not>
+          <dst_port>any</dst_port>
+          <dscp/>
+          <direction>in</direction>
+          <target>b6d8a668-152d-44de-b4a0-afd6facc9f3e</target>
+          <description>fq_dl_shaper</description>
+          <origin>TrafficShaper</origin>
+        </rule>
+      </rules>
     </TrafficShaper>
     <trust>
       <general version="1.0.1" persisted_at="1755430129.91">
