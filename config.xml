@@ -679,9 +679,9 @@ XYyEMr6yf4hHsEfIxtPmAAAAF2JhcmlzQGFsa2EtYXV0b3RlaWxlLmRlAQIDBAUG&#13;
     <prefer>0.opnsense.pool.ntp.org</prefer>
   </ntpd>
   <revision>
-    <username>(system)</username>
-    <description>/usr/local/opnsense/scripts/firmware/register.php made changes</description>
-    <time>1755762380.91</time>
+    <username>root@192.168.1.195</username>
+    <description>/api/netsnmp/general/set made changes</description>
+    <time>1755762435.58</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -2909,13 +2909,13 @@ __opt2_network</content>
       <user version="1.0.1" persisted_at="1755762380.11">
         <users/>
       </user>
-      <general version="1.0.5" persisted_at="1755762380.11">
-        <enabled>0</enabled>
-        <community/>
-        <syslocation/>
-        <syscontact/>
+      <general version="1.0.5" persisted_at="1755762435.58">
+        <enabled>1</enabled>
+        <community>public</community>
+        <syslocation>ALKA-HAM1</syslocation>
+        <syscontact>baris@alka-autoteile.de</syscontact>
         <l3visibility>0</l3visibility>
-        <versionoid>0</versionoid>
+        <versionoid>1</versionoid>
         <enableagentx>0</enableagentx>
         <enableobservium>0</enableobservium>
         <listen/>
