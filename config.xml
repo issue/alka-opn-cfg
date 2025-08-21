@@ -680,8 +680,8 @@ XYyEMr6yf4hHsEfIxtPmAAAAF2JhcmlzQGFsa2EtYXV0b3RlaWxlLmRlAQIDBAUG&#13;
   </ntpd>
   <revision>
     <username>root@192.168.1.195</username>
-    <description>/api/crowdsec/general/set made changes</description>
-    <time>1755773250.62</time>
+    <description>/api/diagnostics/netflow/setconfig made changes</description>
+    <time>1755773593.50</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -1002,15 +1002,15 @@ __opt2_network</content>
         <onetoone/>
       </Filter>
     </Firewall>
-    <Netflow version="1.0.1" persisted_at="1755430128.14">
+    <Netflow version="1.0.1" persisted_at="1755773593.50">
       <capture>
-        <interfaces/>
-        <egress_only/>
+        <interfaces>lan,wan</interfaces>
+        <egress_only>wan</egress_only>
         <version>v9</version>
-        <targets/>
+        <targets>127.0.0.1:2056</targets>
       </capture>
       <collect>
-        <enable>0</enable>
+        <enable>1</enable>
       </collect>
       <activeTimeout>1800</activeTimeout>
       <inactiveTimeout>15</inactiveTimeout>
