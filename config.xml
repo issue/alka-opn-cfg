@@ -680,8 +680,8 @@ XYyEMr6yf4hHsEfIxtPmAAAAF2JhcmlzQGFsa2EtYXV0b3RlaWxlLmRlAQIDBAUG&#13;
   </ntpd>
   <revision>
     <username>(system)</username>
-    <description>/usr/local/opnsense/mvc/script/run_migrations.php made changes</description>
-    <time>1755773181.80</time>
+    <description>/usr/local/etc/rc.filter_configure made changes</description>
+    <time>1755773183.22</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -910,7 +910,7 @@ XYyEMr6yf4hHsEfIxtPmAAAAF2JhcmlzQGFsa2EtYXV0b3RlaWxlLmRlAQIDBAUG&#13;
       <Lvtemplate version="0.0.1" persisted_at="1755430128.13">
         <templates/>
       </Lvtemplate>
-      <Alias version="1.0.1" persisted_at="1755681267.15">
+      <Alias version="1.0.1" persisted_at="1755773183.22">
         <geoip>
           <url>https://801096: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@download.maxmind.com/geoip/databases/GeoLite2-Country-CSV/download?suffix=zip</url>
         </geoip>
@@ -955,6 +955,23 @@ __opt2_network</content>
             <expire/>
             <categories/>
             <description/>
+          </alias>
+          <alias uuid="78d63ab3-e369-469e-a186-d65ee1520fd4">
+            <enabled>1</enabled>
+            <name>crowdsec_blocklists</name>
+            <type>external</type>
+            <path_expression/>
+            <proto>IPv4</proto>
+            <interface/>
+            <counters>0</counters>
+            <updatefreq/>
+            <content/>
+            <password/>
+            <username/>
+            <authtype/>
+            <expire/>
+            <categories/>
+            <description>CrowdSec (IPv4)</description>
           </alias>
         </aliases>
       </Alias>
