@@ -128,6 +128,7 @@ XYyEMr6yf4hHsEfIxtPmAAAAF2JhcmlzQGFsa2EtYXV0b3RlaWxlLmRlAQIDBAUG&#13;
     <dns6gw>none</dns6gw>
     <dns7gw>none</dns7gw>
     <dns8gw>none</dns8gw>
+    <contact_email>baris@alka-autoteile.de</contact_email>
   </system>
   <interfaces>
     <wan>
@@ -655,8 +656,8 @@ XYyEMr6yf4hHsEfIxtPmAAAAF2JhcmlzQGFsa2EtYXV0b3RlaWxlLmRlAQIDBAUG&#13;
   </ntpd>
   <revision>
     <username>root@192.168.1.195</username>
-    <description>/api/dhcrelay/settings/set_relay/d78ed0b7-813d-4395-8d6b-bff29e95dd8d made changes</description>
-    <time>1755759807.23</time>
+    <description>Updated crash reporter contact email.</description>
+    <time>1755759847.95</time>
   </revision>
   <OPNsense>
     <wireguard>
