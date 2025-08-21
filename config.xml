@@ -623,6 +623,30 @@ XYyEMr6yf4hHsEfIxtPmAAAAF2JhcmlzQGFsa2EtYXV0b3RlaWxlLmRlAQIDBAUG&#13;
         <description>/firewall_rules_edit.php made changes</description>
       </created>
     </rule>
+    <rule uuid="30599ece-9446-46bf-8bde-b8217a926f5c">
+      <type>pass</type>
+      <interface>opt4</interface>
+      <ipprotocol>inet</ipprotocol>
+      <statetype>keep state</statetype>
+      <direction>in</direction>
+      <quick>1</quick>
+      <source>
+        <any>1</any>
+      </source>
+      <destination>
+        <network>lan</network>
+      </destination>
+      <updated>
+        <username>root@192.168.1.195</username>
+        <time>1755760309.16</time>
+        <description>/firewall_rules_edit.php made changes</description>
+      </updated>
+      <created>
+        <username>root@192.168.1.195</username>
+        <time>1755760309.16</time>
+        <description>/firewall_rules_edit.php made changes</description>
+      </created>
+    </rule>
     <rule uuid="d0922961-6d14-4a5d-95c5-2bde7472dffe">
       <type>pass</type>
       <interface>wireguard</interface>
@@ -656,8 +680,8 @@ XYyEMr6yf4hHsEfIxtPmAAAAF2JhcmlzQGFsa2EtYXV0b3RlaWxlLmRlAQIDBAUG&#13;
   </ntpd>
   <revision>
     <username>root@192.168.1.195</username>
-    <description>Updated crash reporter contact email.</description>
-    <time>1755759847.95</time>
+    <description>/firewall_rules_edit.php made changes</description>
+    <time>1755760309.27</time>
   </revision>
   <OPNsense>
     <wireguard>
