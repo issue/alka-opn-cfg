@@ -679,9 +679,9 @@ XYyEMr6yf4hHsEfIxtPmAAAAF2JhcmlzQGFsa2EtYXV0b3RlaWxlLmRlAQIDBAUG&#13;
     <prefer>0.opnsense.pool.ntp.org</prefer>
   </ntpd>
   <revision>
-    <username>root@192.168.1.195</username>
-    <description>/api/netsnmp/general/set made changes</description>
-    <time>1755762435.58</time>
+    <username>(system)</username>
+    <description>/usr/local/opnsense/mvc/script/run_migrations.php made changes</description>
+    <time>1755773181.80</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -2921,6 +2921,21 @@ __opt2_network</content>
         <listen/>
       </general>
     </netsnmp>
+    <crowdsec>
+      <general version="1.0.11" persisted_at="1755773181.79">
+        <agent_enabled>1</agent_enabled>
+        <lapi_enabled>1</lapi_enabled>
+        <firewall_bouncer_enabled>1</firewall_bouncer_enabled>
+        <lapi_manual_configuration>0</lapi_manual_configuration>
+        <lapi_listen_address>127.0.0.1</lapi_listen_address>
+        <lapi_listen_port>8080</lapi_listen_port>
+        <rules_enabled>1</rules_enabled>
+        <rules_log>0</rules_log>
+        <rules_tag/>
+        <enroll_key/>
+        <crowdsec_firewall_verbose>0</crowdsec_firewall_verbose>
+      </general>
+    </crowdsec>
   </OPNsense>
   <hasync version="1.0.2" persisted_at="1755430128.04">
     <disablepreempt>0</disablepreempt>
