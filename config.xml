@@ -222,7 +222,7 @@ XYyEMr6yf4hHsEfIxtPmAAAAF2JhcmlzQGFsa2EtYXV0b3RlaWxlLmRlAQIDBAUG&#13;
     </opt3>
     <opt4>
       <if>vlan0.1.209</if>
-      <descr>wifi_employees</descr>
+      <descr>wifi_adm</descr>
       <enable>1</enable>
       <spoofmac/>
       <ipaddr>172.16.209.1</ipaddr>
@@ -655,8 +655,8 @@ XYyEMr6yf4hHsEfIxtPmAAAAF2JhcmlzQGFsa2EtYXV0b3RlaWxlLmRlAQIDBAUG&#13;
   </ntpd>
   <revision>
     <username>root@192.168.1.195</username>
-    <description>/firewall_rules_edit.php made changes</description>
-    <time>1755759504.98</time>
+    <description>/interfaces.php made changes</description>
+    <time>1755759629.58</time>
   </revision>
   <OPNsense>
     <wireguard>
