@@ -681,7 +681,7 @@ XYyEMr6yf4hHsEfIxtPmAAAAF2JhcmlzQGFsa2EtYXV0b3RlaWxlLmRlAQIDBAUG&#13;
   <revision>
     <username>root@192.168.1.195</username>
     <description>/api/syslog/settings/set made changes</description>
-    <time>1755877500.30</time>
+    <time>1755877522.91</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -1291,7 +1291,7 @@ __opt2_network</content>
       </test>
     </monit>
     <Gateways version="1.0.0" persisted_at="1755431071.28"/>
-    <Syslog version="1.0.2" persisted_at="1755877500.30">
+    <Syslog version="1.0.2" persisted_at="1755877522.91">
       <general>
         <enabled>1</enabled>
         <loglocal>1</loglocal>
