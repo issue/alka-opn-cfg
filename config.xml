@@ -680,8 +680,8 @@ XYyEMr6yf4hHsEfIxtPmAAAAF2JhcmlzQGFsa2EtYXV0b3RlaWxlLmRlAQIDBAUG&#13;
   </ntpd>
   <revision>
     <username>root@192.168.1.195</username>
-    <description>/api/syslog/settings/set made changes</description>
-    <time>1755877488.14</time>
+    <description>/api/syslog/settings/add_destination/ made changes</description>
+    <time>1755877498.64</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -1291,14 +1291,27 @@ __opt2_network</content>
       </test>
     </monit>
     <Gateways version="1.0.0" persisted_at="1755431071.28"/>
-    <Syslog version="1.0.2" persisted_at="1755877488.14">
+    <Syslog version="1.0.2" persisted_at="1755877498.64">
       <general>
         <enabled>1</enabled>
         <loglocal>1</loglocal>
         <maxpreserve>31</maxpreserve>
         <maxfilesize/>
       </general>
-      <destinations/>
+      <destinations>
+        <destination uuid="8cce2e8a-3515-4193-a529-30bdf8ec2f15">
+          <enabled>1</enabled>
+          <transport>tcp4</transport>
+          <program/>
+          <level/>
+          <facility/>
+          <hostname>192.168.1.82</hostname>
+          <certificate/>
+          <port>514</port>
+          <rfc5424>0</rfc5424>
+          <description/>
+        </destination>
+      </destinations>
     </Syslog>
     <TrafficShaper version="1.0.3" persisted_at="1755777473.32">
       <pipes>
