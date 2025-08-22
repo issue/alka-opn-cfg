@@ -680,8 +680,8 @@ XYyEMr6yf4hHsEfIxtPmAAAAF2JhcmlzQGFsa2EtYXV0b3RlaWxlLmRlAQIDBAUG&#13;
   </ntpd>
   <revision>
     <username>root@192.168.1.195</username>
-    <description>/api/syslog/settings/set made changes</description>
-    <time>1755876201.41</time>
+    <description>/api/syslog/settings/set_destination/0bc6d91c-c629-4921-bc5b-56636d3cae03 made changes</description>
+    <time>1755876528.02</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -1291,7 +1291,7 @@ __opt2_network</content>
       </test>
     </monit>
     <Gateways version="1.0.0" persisted_at="1755431071.28"/>
-    <Syslog version="1.0.2" persisted_at="1755876201.41">
+    <Syslog version="1.0.2" persisted_at="1755876528.02">
       <general>
         <enabled>1</enabled>
         <loglocal>1</loglocal>
@@ -1302,9 +1302,9 @@ __opt2_network</content>
         <destination uuid="0bc6d91c-c629-4921-bc5b-56636d3cae03">
           <enabled>1</enabled>
           <transport>udp4</transport>
-          <program>acme.sh,acmeclient,audit,configd.py,dhcpd,dhcrelay,dnsmasq,filterlog,firewall,dpinger,haproxy,charon,kea-ctrl-agent,kea-dhcp4,kea-dhcp6,kernel,lighttpd,monit,ntp,ntpd,ntpdate,openvpn,pkg,pkg-static,captiveportal,ppp,unbound,bgpd,miniupnpd,olsrd,ospfd,routed,zebra,suricata,wireguard,hostapd,zenoverlay</program>
-          <level>debug,info,notice,warn,err,crit,alert,emerg</level>
-          <facility>kern,user,mail,daemon,auth,syslog,lpr,news,uucp,cron,authpriv,ftp,ntp,security,console,local0,local1,local2,local3,local4,local5,local6,local7</facility>
+          <program/>
+          <level/>
+          <facility/>
           <hostname>192.168.1.82</hostname>
           <certificate/>
           <port>514</port>
