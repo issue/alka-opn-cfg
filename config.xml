@@ -680,8 +680,8 @@ XYyEMr6yf4hHsEfIxtPmAAAAF2JhcmlzQGFsa2EtYXV0b3RlaWxlLmRlAQIDBAUG&#13;
   </ntpd>
   <revision>
     <username>root@192.168.1.195</username>
-    <description>/api/syslog/settings/set made changes</description>
-    <time>1755876855.48</time>
+    <description>/api/syslog/settings/del_destination/0bc6d91c-c629-4921-bc5b-56636d3cae03 made changes</description>
+    <time>1755877484.40</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -1291,27 +1291,14 @@ __opt2_network</content>
       </test>
     </monit>
     <Gateways version="1.0.0" persisted_at="1755431071.28"/>
-    <Syslog version="1.0.2" persisted_at="1755876855.48">
+    <Syslog version="1.0.2" persisted_at="1755877484.40">
       <general>
         <enabled>1</enabled>
         <loglocal>1</loglocal>
         <maxpreserve>31</maxpreserve>
         <maxfilesize/>
       </general>
-      <destinations>
-        <destination uuid="0bc6d91c-c629-4921-bc5b-56636d3cae03">
-          <enabled>1</enabled>
-          <transport>tcp4</transport>
-          <program/>
-          <level/>
-          <facility/>
-          <hostname>192.168.1.82</hostname>
-          <certificate/>
-          <port>514</port>
-          <rfc5424>0</rfc5424>
-          <description>SIGNOZ</description>
-        </destination>
-      </destinations>
+      <destinations/>
     </Syslog>
     <TrafficShaper version="1.0.3" persisted_at="1755777473.32">
       <pipes>
