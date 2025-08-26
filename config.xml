@@ -707,8 +707,8 @@ XYyEMr6yf4hHsEfIxtPmAAAAF2JhcmlzQGFsa2EtYXV0b3RlaWxlLmRlAQIDBAUG&#13;
   </ntpd>
   <revision>
     <username>root@192.168.1.195</username>
-    <description>/api/haproxy/settings/add_acl/ made changes</description>
-    <time>1756193927.53</time>
+    <description>/api/haproxy/settings/add_action/ made changes</description>
+    <time>1756193943.62</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -2099,7 +2099,7 @@ __opt2_network</content>
       </validations>
       <actions/>
     </AcmeClient>
-    <HAProxy version="4.1.0" persisted_at="1756193927.53">
+    <HAProxy version="4.1.0" persisted_at="1756193943.62">
       <general>
         <enabled>1</enabled>
         <gracefulStop>0</gracefulStop>
@@ -3122,6 +3122,64 @@ __opt2_network</content>
           <operator>and</operator>
           <type>use_backend</type>
           <use_backend>95a0475c-d8ed-41da-8d7a-41080d7eb352</use_backend>
+          <use_server/>
+          <fcgi_pass_header/>
+          <fcgi_set_param/>
+          <http_request_auth/>
+          <http_request_redirect/>
+          <http_request_lua/>
+          <http_request_use_service/>
+          <http_request_add_header_name/>
+          <http_request_add_header_content/>
+          <http_request_set_header_name/>
+          <http_request_set_header_content/>
+          <http_request_del_header_name/>
+          <http_request_replace_header_name/>
+          <http_request_replace_header_regex/>
+          <http_request_replace_value_name/>
+          <http_request_replace_value_regex/>
+          <http_request_set_path/>
+          <http_request_set_var_scope>txn</http_request_set_var_scope>
+          <http_request_set_var_name/>
+          <http_request_set_var_expr/>
+          <http_response_lua/>
+          <http_response_add_header_name/>
+          <http_response_add_header_content/>
+          <http_response_set_header_name/>
+          <http_response_set_header_content/>
+          <http_response_del_header_name/>
+          <http_response_replace_header_name/>
+          <http_response_replace_header_regex/>
+          <http_response_replace_value_name/>
+          <http_response_replace_value_regex/>
+          <http_response_set_status_code/>
+          <http_response_set_status_reason/>
+          <http_response_set_var_scope>txn</http_response_set_var_scope>
+          <http_response_set_var_name/>
+          <http_response_set_var_expr/>
+          <monitor_fail_uri/>
+          <tcp_request_content_lua/>
+          <tcp_request_content_use_service/>
+          <tcp_request_inspect_delay/>
+          <tcp_response_content_lua/>
+          <tcp_response_inspect_delay/>
+          <custom/>
+          <useBackend/>
+          <useServer/>
+          <actionName/>
+          <actionFind/>
+          <actionValue/>
+          <map_use_backend_file/>
+          <map_use_backend_default/>
+        </action>
+        <action uuid="f788ecef-ed74-4a52-8925-1dfbef73f41b">
+          <name>alkagit</name>
+          <description/>
+          <testType>if</testType>
+          <linkedAcls>bfc1cb5b-bee4-4905-b8c4-d327b8df03df</linkedAcls>
+          <operator>and</operator>
+          <type>use_backend</type>
+          <use_backend>544c035f-97b8-4c85-87ce-04deed551886</use_backend>
           <use_server/>
           <fcgi_pass_header/>
           <fcgi_set_param/>
