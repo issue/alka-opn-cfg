@@ -707,8 +707,8 @@ XYyEMr6yf4hHsEfIxtPmAAAAF2JhcmlzQGFsa2EtYXV0b3RlaWxlLmRlAQIDBAUG&#13;
   </ntpd>
   <revision>
     <username>root@192.168.1.195</username>
-    <description>/firewall_rules.php made changes</description>
-    <time>1756133493.92</time>
+    <description>/api/haproxy/settings/add_server/ made changes</description>
+    <time>1756193889.83</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -2099,7 +2099,7 @@ __opt2_network</content>
       </validations>
       <actions/>
     </AcmeClient>
-    <HAProxy version="4.1.0" persisted_at="1755533330.14">
+    <HAProxy version="4.1.0" persisted_at="1756193889.83">
       <general>
         <enabled>1</enabled>
         <gracefulStop>0</gracefulStop>
@@ -2515,6 +2515,36 @@ __opt2_network</content>
           <ssl>0</ssl>
           <sslSNI/>
           <sslVerify>0</sslVerify>
+          <sslCA/>
+          <sslCRL/>
+          <sslClientCertificate/>
+          <maxConnections/>
+          <weight/>
+          <checkInterval/>
+          <checkDownInterval/>
+          <source/>
+          <advanced/>
+          <unix_socket/>
+        </server>
+        <server uuid="d76b9e35-7307-4125-9550-0eeb5e2fbfdb">
+          <id>68ad6461c9a454.39529810</id>
+          <enabled>1</enabled>
+          <name>alkagit</name>
+          <description/>
+          <address>192.168.1.176</address>
+          <port/>
+          <checkport/>
+          <mode>active</mode>
+          <multiplexer_protocol>unspecified</multiplexer_protocol>
+          <type>static</type>
+          <serviceName/>
+          <number/>
+          <linkedResolver/>
+          <resolverOpts/>
+          <resolvePrefer/>
+          <ssl>0</ssl>
+          <sslSNI/>
+          <sslVerify>1</sslVerify>
           <sslCA/>
           <sslCRL/>
           <sslClientCertificate/>
