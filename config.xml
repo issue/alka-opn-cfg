@@ -707,8 +707,8 @@ XYyEMr6yf4hHsEfIxtPmAAAAF2JhcmlzQGFsa2EtYXV0b3RlaWxlLmRlAQIDBAUG&#13;
   </ntpd>
   <revision>
     <username>root@192.168.1.195</username>
-    <description>/api/haproxy/settings/set_backend/310bd448-027e-41ac-8b5b-aa395d5df200 made changes</description>
-    <time>1756194029.14</time>
+    <description>/api/haproxy/settings/set_server/d76b9e35-7307-4125-9550-0eeb5e2fbfdb made changes</description>
+    <time>1756194429.96</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -2099,7 +2099,7 @@ __opt2_network</content>
       </validations>
       <actions/>
     </AcmeClient>
-    <HAProxy version="4.1.0" persisted_at="1756194029.14">
+    <HAProxy version="4.1.0" persisted_at="1756194429.96">
       <general>
         <enabled>1</enabled>
         <gracefulStop>0</gracefulStop>
@@ -2592,7 +2592,7 @@ __opt2_network</content>
           <name>alkagit</name>
           <description/>
           <address>192.168.1.176</address>
-          <port/>
+          <port>80</port>
           <checkport/>
           <mode>active</mode>
           <multiplexer_protocol>unspecified</multiplexer_protocol>
@@ -2604,7 +2604,7 @@ __opt2_network</content>
           <resolvePrefer/>
           <ssl>0</ssl>
           <sslSNI/>
-          <sslVerify>1</sslVerify>
+          <sslVerify>0</sslVerify>
           <sslCA/>
           <sslCRL/>
           <sslClientCertificate/>
