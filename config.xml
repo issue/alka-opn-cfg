@@ -609,15 +609,15 @@ XYyEMr6yf4hHsEfIxtPmAAAAF2JhcmlzQGFsa2EtYXV0b3RlaWxlLmRlAQIDBAUG&#13;
       <quick>1</quick>
       <protocol>tcp</protocol>
       <source>
-        <any>1</any>
+        <network>lan</network>
       </source>
       <destination>
-        <address>192.168.1.82</address>
+        <address>192.168.1.82/32</address>
         <port>5086</port>
       </destination>
       <updated>
         <username>root@192.168.1.195</username>
-        <time>1756297245.30</time>
+        <time>1756297511.74</time>
         <description>/firewall_rules_edit.php made changes</description>
       </updated>
       <created>
@@ -733,8 +733,8 @@ XYyEMr6yf4hHsEfIxtPmAAAAF2JhcmlzQGFsa2EtYXV0b3RlaWxlLmRlAQIDBAUG&#13;
   </ntpd>
   <revision>
     <username>root@192.168.1.195</username>
-    <description>/firewall_rules.php made changes</description>
-    <time>1756297337.68</time>
+    <description>/firewall_rules_edit.php made changes</description>
+    <time>1756297511.85</time>
   </revision>
   <OPNsense>
     <wireguard>
