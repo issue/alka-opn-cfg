@@ -655,17 +655,17 @@ XYyEMr6yf4hHsEfIxtPmAAAAF2JhcmlzQGFsa2EtYXV0b3RlaWxlLmRlAQIDBAUG&#13;
       <statetype>keep state</statetype>
       <direction>in</direction>
       <quick>1</quick>
-      <protocol>tcp/udp</protocol>
+      <protocol>tcp</protocol>
       <source>
         <any>1</any>
       </source>
       <destination>
-        <address>192.168.1.82/32</address>
+        <address>192.168.1.82</address>
         <port>5086</port>
       </destination>
       <updated>
         <username>root@192.168.1.195</username>
-        <time>1756297016.67</time>
+        <time>1756297245.30</time>
         <description>/firewall_rules_edit.php made changes</description>
       </updated>
       <created>
@@ -732,9 +732,9 @@ XYyEMr6yf4hHsEfIxtPmAAAAF2JhcmlzQGFsa2EtYXV0b3RlaWxlLmRlAQIDBAUG&#13;
     <prefer>192.168.1.3</prefer>
   </ntpd>
   <revision>
-    <username>(system)</username>
-    <description>/usr/local/opnsense/mvc/app/library/OPNsense/Zenarmor/CLI.php made changes</description>
-    <time>1756297120.16</time>
+    <username>root@192.168.1.195</username>
+    <description>/firewall_rules_edit.php made changes</description>
+    <time>1756297245.42</time>
   </revision>
   <OPNsense>
     <wireguard>
