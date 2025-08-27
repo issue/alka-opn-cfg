@@ -734,7 +734,7 @@ XYyEMr6yf4hHsEfIxtPmAAAAF2JhcmlzQGFsa2EtYXV0b3RlaWxlLmRlAQIDBAUG&#13;
   <revision>
     <username>(system)</username>
     <description>/usr/local/opnsense/mvc/app/library/OPNsense/Zenarmor/CLI.php made changes</description>
-    <time>1756297098.20</time>
+    <time>1756297104.95</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -1568,7 +1568,7 @@ __opt2_network</content>
       <hosts/>
       <aliases/>
     </unboundplus>
-    <Zenarmor version="0.0.0" persisted_at="1755532302.38">
+    <Zenarmor version="0.0.0" persisted_at="1756297104.95">
       <zenvpn>
         <enabled>1</enabled>
       </zenvpn>
@@ -1598,6 +1598,7 @@ __opt2_network</content>
         <healthCheck>true</healthCheck>
         <healthShare>true</healthShare>
         <healthTimer>5,15,25,35,45,55 * * * *</healthTimer>
+        <updateTimer>* 0 * * *</updateTimer>
         <heartbeatMonit>true</heartbeatMonit>
         <heartbeatData>true</heartbeatData>
         <hwbypass>false</hwbypass>
