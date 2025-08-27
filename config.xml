@@ -609,7 +609,7 @@ XYyEMr6yf4hHsEfIxtPmAAAAF2JhcmlzQGFsa2EtYXV0b3RlaWxlLmRlAQIDBAUG&#13;
       <quick>1</quick>
       <protocol>tcp</protocol>
       <source>
-        <network>lan</network>
+        <any>1</any>
       </source>
       <destination>
         <address>192.168.1.82/32</address>
@@ -617,7 +617,7 @@ XYyEMr6yf4hHsEfIxtPmAAAAF2JhcmlzQGFsa2EtYXV0b3RlaWxlLmRlAQIDBAUG&#13;
       </destination>
       <updated>
         <username>root@192.168.1.195</username>
-        <time>1756297664.83</time>
+        <time>1756297681.02</time>
         <description>/firewall_rules_edit.php made changes</description>
       </updated>
       <created>
@@ -734,7 +734,7 @@ XYyEMr6yf4hHsEfIxtPmAAAAF2JhcmlzQGFsa2EtYXV0b3RlaWxlLmRlAQIDBAUG&#13;
   <revision>
     <username>root@192.168.1.195</username>
     <description>/firewall_rules_edit.php made changes</description>
-    <time>1756297664.95</time>
+    <time>1756297682.26</time>
   </revision>
   <OPNsense>
     <wireguard>
