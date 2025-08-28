@@ -782,9 +782,9 @@ XYyEMr6yf4hHsEfIxtPmAAAAF2JhcmlzQGFsa2EtYXV0b3RlaWxlLmRlAQIDBAUG&#13;
     <prefer>192.168.1.3</prefer>
   </ntpd>
   <revision>
-    <username>root@192.168.1.195</username>
-    <description>/api/haproxy/settings/set_backend/99263013-29ce-4892-b3d0-50b24fb3b139 made changes</description>
-    <time>1756309898.81</time>
+    <username>root@192.168.1.74</username>
+    <description>/api/acmeclient/certificates/update/e8b55078-ed18-4232-9211-0903428bbef0 made changes</description>
+    <time>1756395253.19</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -1843,7 +1843,7 @@ __opt2_network</content>
         <webcategoriesType/>
       </rules>
     </Zenarmor>
-    <AcmeClient version="4.3.0" persisted_at="1755532942.49">
+    <AcmeClient version="4.3.0" persisted_at="1756395253.19">
       <settings>
         <enabled>1</enabled>
         <autoRenewal>1</autoRenewal>
@@ -1880,7 +1880,7 @@ __opt2_network</content>
         <certificate uuid="e8b55078-ed18-4232-9211-0903428bbef0">
           <id>68a1d0584400a7.45732329</id>
           <enabled>1</enabled>
-          <name>alka-it.de</name>
+          <name>*.alka-it.de</name>
           <description/>
           <altNames>*.alka-it.de</altNames>
           <account>54ab9f3c-6f3f-4ac8-809e-f5214515d4d6</account>
