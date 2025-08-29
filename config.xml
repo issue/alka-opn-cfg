@@ -461,14 +461,14 @@ XYyEMr6yf4hHsEfIxtPmAAAAF2JhcmlzQGFsa2EtYXV0b3RlaWxlLmRlAQIDBAUG&#13;
       <direction>in</direction>
       <quick>1</quick>
       <source>
-        <network>opt4</network>
+        <any>1</any>
       </source>
       <destination>
-        <address>192.168.1.82</address>
+        <address>192.168.1.82/32</address>
       </destination>
       <updated>
         <username>root@192.168.1.195</username>
-        <time>1756475625.23</time>
+        <time>1756475713.89</time>
         <description>/firewall_rules_edit.php made changes</description>
       </updated>
       <created>
@@ -737,8 +737,8 @@ XYyEMr6yf4hHsEfIxtPmAAAAF2JhcmlzQGFsa2EtYXV0b3RlaWxlLmRlAQIDBAUG&#13;
   </ntpd>
   <revision>
     <username>root@192.168.1.195</username>
-    <description>/firewall_rules.php made changes</description>
-    <time>1756475689.27</time>
+    <description>/firewall_rules_edit.php made changes</description>
+    <time>1756475714.00</time>
   </revision>
   <OPNsense>
     <wireguard>
