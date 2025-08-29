@@ -712,8 +712,8 @@ XYyEMr6yf4hHsEfIxtPmAAAAF2JhcmlzQGFsa2EtYXV0b3RlaWxlLmRlAQIDBAUG&#13;
   </ntpd>
   <revision>
     <username>root@192.168.1.195</username>
-    <description>/interfaces.php made changes</description>
-    <time>1756476243.89</time>
+    <description>/services_dhcp.php made changes</description>
+    <time>1756476267.61</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -3527,6 +3527,20 @@ __opt2_network</content>
       <dnsserver/>
       <ntpserver/>
     </opt1>
+    <opt4>
+      <enable>1</enable>
+      <ddnsdomainalgorithm>hmac-md5</ddnsdomainalgorithm>
+      <numberoptions>
+        <item/>
+      </numberoptions>
+      <range>
+        <from>172.16.209.20</from>
+        <to>172.16.209.200</to>
+      </range>
+      <winsserver/>
+      <dnsserver/>
+      <ntpserver/>
+    </opt4>
   </dhcpd>
   <dhcpdv6>
     <lan>
