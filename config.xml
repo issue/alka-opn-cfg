@@ -677,30 +677,6 @@ XYyEMr6yf4hHsEfIxtPmAAAAF2JhcmlzQGFsa2EtYXV0b3RlaWxlLmRlAQIDBAUG&#13;
         <description>/firewall_rules_edit.php made changes</description>
       </created>
     </rule>
-    <rule uuid="30599ece-9446-46bf-8bde-b8217a926f5c">
-      <type>pass</type>
-      <interface>opt4</interface>
-      <ipprotocol>inet</ipprotocol>
-      <statetype>keep state</statetype>
-      <direction>in</direction>
-      <quick>1</quick>
-      <source>
-        <any>1</any>
-      </source>
-      <destination>
-        <network>lan</network>
-      </destination>
-      <updated>
-        <username>root@192.168.1.195</username>
-        <time>1755760309.16</time>
-        <description>/firewall_rules_edit.php made changes</description>
-      </updated>
-      <created>
-        <username>root@192.168.1.195</username>
-        <time>1755760309.16</time>
-        <description>/firewall_rules_edit.php made changes</description>
-      </created>
-    </rule>
     <rule uuid="66507bb4-8095-4e83-a99b-99b66b016ef0">
       <type>pass</type>
       <interface>opt6</interface>
@@ -783,9 +759,9 @@ XYyEMr6yf4hHsEfIxtPmAAAAF2JhcmlzQGFsa2EtYXV0b3RlaWxlLmRlAQIDBAUG&#13;
     <prefer>192.168.1.3</prefer>
   </ntpd>
   <revision>
-    <username>root@172.16.244.3</username>
-    <description>/api/wireguard/general/set made changes</description>
-    <time>1756410283.59</time>
+    <username>root@192.168.1.195</username>
+    <description>/firewall_rules.php made changes</description>
+    <time>1756448033.51</time>
   </revision>
   <OPNsense>
     <wireguard>
