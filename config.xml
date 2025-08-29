@@ -767,8 +767,8 @@ XYyEMr6yf4hHsEfIxtPmAAAAF2JhcmlzQGFsa2EtYXV0b3RlaWxlLmRlAQIDBAUG&#13;
   </ntpd>
   <revision>
     <username>root@192.168.1.195</username>
-    <description>/api/interfaces/vlan_settings/set_item/ece00ba2-298e-49e2-ba30-0019fc0a9d2b made changes</description>
-    <time>1756474618.91</time>
+    <description>/api/dhcrelay/settings/toggle_relay/df4bad64-10df-44d2-9873-446c1332cfdf made changes</description>
+    <time>1756474795.04</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -947,7 +947,7 @@ XYyEMr6yf4hHsEfIxtPmAAAAF2JhcmlzQGFsa2EtYXV0b3RlaWxlLmRlAQIDBAUG&#13;
         </job>
       </jobs>
     </cron>
-    <DHCRelay version="1.0.1" persisted_at="1756448478.02">
+    <DHCRelay version="1.0.1" persisted_at="1756474795.03">
       <relays uuid="30377f65-d89a-4ee4-8878-853f9776aa20">
         <enabled>1</enabled>
         <interface>lan</interface>
@@ -961,7 +961,7 @@ XYyEMr6yf4hHsEfIxtPmAAAAF2JhcmlzQGFsa2EtYXV0b3RlaWxlLmRlAQIDBAUG&#13;
         <agent_info>0</agent_info>
       </relays>
       <relays uuid="df4bad64-10df-44d2-9873-446c1332cfdf">
-        <enabled>1</enabled>
+        <enabled>0</enabled>
         <interface>opt1</interface>
         <destination>5466cde3-3adc-4988-b6ec-f03ef9950720</destination>
         <agent_info>0</agent_info>
