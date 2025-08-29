@@ -761,8 +761,8 @@ XYyEMr6yf4hHsEfIxtPmAAAAF2JhcmlzQGFsa2EtYXV0b3RlaWxlLmRlAQIDBAUG&#13;
   </ntpd>
   <revision>
     <username>root@192.168.1.195</username>
-    <description>/api/dhcrelay/settings/set_relay/d78ed0b7-813d-4395-8d6b-bff29e95dd8d made changes</description>
-    <time>1756448478.02</time>
+    <description>/services_dhcpv6.php made changes</description>
+    <time>1756448489.03</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -3567,9 +3567,7 @@ __opt2_network</content>
       <enable>-1</enable>
       <ramode>disabled</ramode>
     </lan>
-    <opt4>
-      <enable>-1</enable>
-    </opt4>
+    <opt4/>
   </dhcpdv6>
   <cert uuid="b80c54e8-cebf-4327-ab50-cb4f9f546324">
     <refid>68a1bd7544473</refid>
