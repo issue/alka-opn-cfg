@@ -766,8 +766,8 @@ XYyEMr6yf4hHsEfIxtPmAAAAF2JhcmlzQGFsa2EtYXV0b3RlaWxlLmRlAQIDBAUG&#13;
   </ntpd>
   <revision>
     <username>root@192.168.1.195</username>
-    <description>/api/zenarmor/configuration/shun_networks made changes</description>
-    <time>1756471527.43</time>
+    <description>/api/zenarmor/configuration/deployment made changes</description>
+    <time>1756471536.73</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -1614,7 +1614,7 @@ __opt2_network</content>
       <hosts/>
       <aliases/>
     </unboundplus>
-    <Zenarmor version="0.0.0" persisted_at="1756471527.43">
+    <Zenarmor version="0.0.0" persisted_at="1756471536.73">
       <zenvpn>
         <enabled>1</enabled>
       </zenvpn>
