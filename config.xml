@@ -244,6 +244,10 @@ XYyEMr6yf4hHsEfIxtPmAAAAF2JhcmlzQGFsa2EtYXV0b3RlaWxlLmRlAQIDBAUG&#13;
       <ipaddr>172.16.205.1</ipaddr>
       <subnet>24</subnet>
     </opt2>
+    <opt4>
+      <descr>wifi_adm</descr>
+      <if>vlan02</if>
+    </opt4>
   </interfaces>
   <dnsmasq version="1.0.8" persisted_at="1756409813.38">
     <enable>0</enable>
@@ -701,8 +705,8 @@ XYyEMr6yf4hHsEfIxtPmAAAAF2JhcmlzQGFsa2EtYXV0b3RlaWxlLmRlAQIDBAUG&#13;
   </ntpd>
   <revision>
     <username>root@192.168.1.195</username>
-    <description>/api/interfaces/vlan_settings/add_item/ made changes</description>
-    <time>1756476191.07</time>
+    <description>/interfaces_assign.php made changes</description>
+    <time>1756476200.44</time>
   </revision>
   <OPNsense>
     <wireguard>
