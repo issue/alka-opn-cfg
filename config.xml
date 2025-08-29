@@ -701,8 +701,8 @@ XYyEMr6yf4hHsEfIxtPmAAAAF2JhcmlzQGFsa2EtYXV0b3RlaWxlLmRlAQIDBAUG&#13;
   </ntpd>
   <revision>
     <username>root@192.168.1.195</username>
-    <description>/interfaces_assign.php made changes</description>
-    <time>1756476166.49</time>
+    <description>/api/interfaces/vlan_settings/del_item/ece00ba2-298e-49e2-ba30-0019fc0a9d2b made changes</description>
+    <time>1756476173.16</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -3405,7 +3405,7 @@ __opt2_network</content>
   <virtualip version="1.0.1" persisted_at="1755430129.25">
     <vip/>
   </virtualip>
-  <vlans version="1.0.0" persisted_at="1756474618.91">
+  <vlans version="1.0.0" persisted_at="1756476173.16">
     <vlan uuid="f5924b49-43ca-4a29-960f-24100631fac0">
       <if>em0</if>
       <tag>7</tag>
@@ -3437,14 +3437,6 @@ __opt2_network</content>
       <proto/>
       <descr/>
       <vlanif>vlan0.1.207</vlanif>
-    </vlan>
-    <vlan uuid="ece00ba2-298e-49e2-ba30-0019fc0a9d2b">
-      <if>ix0</if>
-      <tag>209</tag>
-      <pcp>0</pcp>
-      <proto/>
-      <descr>wifi_employees</descr>
-      <vlanif>vlan0.1.209</vlanif>
     </vlan>
     <vlan uuid="a1416698-0fcf-40e9-a566-22105a927a50">
       <if>ix0</if>
