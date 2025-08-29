@@ -255,6 +255,10 @@ XYyEMr6yf4hHsEfIxtPmAAAAF2JhcmlzQGFsa2EtYXV0b3RlaWxlLmRlAQIDBAUG&#13;
       <track6-interface>wan</track6-interface>
       <track6-prefix-id>1</track6-prefix-id>
     </opt4>
+    <opt7>
+      <descr>VM</descr>
+      <if>vlan03</if>
+    </opt7>
   </interfaces>
   <dnsmasq version="1.0.8" persisted_at="1756409813.38">
     <enable>0</enable>
@@ -762,8 +766,8 @@ XYyEMr6yf4hHsEfIxtPmAAAAF2JhcmlzQGFsa2EtYXV0b3RlaWxlLmRlAQIDBAUG&#13;
   </ntpd>
   <revision>
     <username>root@192.168.1.195</username>
-    <description>/api/interfaces/vlan_settings/set_item/a1416698-0fcf-40e9-a566-22105a927a50 made changes</description>
-    <time>1756479974.95</time>
+    <description>/interfaces_assign.php made changes</description>
+    <time>1756480015.05</time>
   </revision>
   <OPNsense>
     <wireguard>
