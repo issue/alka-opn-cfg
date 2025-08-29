@@ -251,6 +251,9 @@ XYyEMr6yf4hHsEfIxtPmAAAAF2JhcmlzQGFsa2EtYXV0b3RlaWxlLmRlAQIDBAUG&#13;
       <spoofmac/>
       <ipaddr>172.16.209.1</ipaddr>
       <subnet>24</subnet>
+      <ipaddrv6>track6</ipaddrv6>
+      <track6-interface>wan</track6-interface>
+      <track6-prefix-id>1</track6-prefix-id>
     </opt4>
   </interfaces>
   <dnsmasq version="1.0.8" persisted_at="1756409813.38">
@@ -710,7 +713,7 @@ XYyEMr6yf4hHsEfIxtPmAAAAF2JhcmlzQGFsa2EtYXV0b3RlaWxlLmRlAQIDBAUG&#13;
   <revision>
     <username>root@192.168.1.195</username>
     <description>/interfaces.php made changes</description>
-    <time>1756476233.84</time>
+    <time>1756476243.89</time>
   </revision>
   <OPNsense>
     <wireguard>
