@@ -256,8 +256,15 @@ XYyEMr6yf4hHsEfIxtPmAAAAF2JhcmlzQGFsa2EtYXV0b3RlaWxlLmRlAQIDBAUG&#13;
       <track6-prefix-id>1</track6-prefix-id>
     </opt4>
     <opt7>
-      <descr>VM</descr>
       <if>vlan03</if>
+      <descr>VM</descr>
+      <enable>1</enable>
+      <spoofmac/>
+      <ipaddr>172.16.30.1</ipaddr>
+      <subnet>22</subnet>
+      <ipaddrv6>track6</ipaddrv6>
+      <track6-interface>wan</track6-interface>
+      <track6-prefix-id>2</track6-prefix-id>
     </opt7>
   </interfaces>
   <dnsmasq version="1.0.8" persisted_at="1756409813.38">
@@ -766,8 +773,8 @@ XYyEMr6yf4hHsEfIxtPmAAAAF2JhcmlzQGFsa2EtYXV0b3RlaWxlLmRlAQIDBAUG&#13;
   </ntpd>
   <revision>
     <username>root@192.168.1.195</username>
-    <description>/interfaces_assign.php made changes</description>
-    <time>1756480015.05</time>
+    <description>/interfaces.php made changes</description>
+    <time>1756480041.73</time>
   </revision>
   <OPNsense>
     <wireguard>
