@@ -601,32 +601,6 @@ XYyEMr6yf4hHsEfIxtPmAAAAF2JhcmlzQGFsa2EtYXV0b3RlaWxlLmRlAQIDBAUG&#13;
         <description>/firewall_rules_edit.php made changes</description>
       </created>
     </rule>
-    <rule uuid="0246dfac-70d0-42c2-8a86-ad9cf3cf7c09">
-      <type>pass</type>
-      <interface>opt4</interface>
-      <ipprotocol>inet</ipprotocol>
-      <statetype>keep state</statetype>
-      <direction>out</direction>
-      <quick>1</quick>
-      <protocol>tcp</protocol>
-      <source>
-        <any>1</any>
-      </source>
-      <destination>
-        <address>192.168.1.82/32</address>
-        <port>5086</port>
-      </destination>
-      <updated>
-        <username>root@192.168.1.195</username>
-        <time>1756297681.02</time>
-        <description>/firewall_rules_edit.php made changes</description>
-      </updated>
-      <created>
-        <username>root@192.168.1.195</username>
-        <time>1756133443.55</time>
-        <description>/firewall_rules_edit.php made changes</description>
-      </created>
-    </rule>
     <rule uuid="c5067cde-e927-4245-8a7c-8d928be29802">
       <type>pass</type>
       <interface>opt4</interface>
@@ -784,8 +758,8 @@ XYyEMr6yf4hHsEfIxtPmAAAAF2JhcmlzQGFsa2EtYXV0b3RlaWxlLmRlAQIDBAUG&#13;
   </ntpd>
   <revision>
     <username>root@192.168.1.195</username>
-    <description>/firewall_rules_edit.php made changes</description>
-    <time>1756448041.09</time>
+    <description>/firewall_rules.php made changes</description>
+    <time>1756448066.08</time>
   </revision>
   <OPNsense>
     <wireguard>
