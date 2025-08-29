@@ -475,11 +475,11 @@ XYyEMr6yf4hHsEfIxtPmAAAAF2JhcmlzQGFsa2EtYXV0b3RlaWxlLmRlAQIDBAUG&#13;
         <any>1</any>
       </source>
       <destination>
-        <address>192.168.1.82/32</address>
+        <any>1</any>
       </destination>
       <updated>
         <username>root@192.168.1.195</username>
-        <time>1756475713.89</time>
+        <time>1756481807.63</time>
         <description>/firewall_rules_edit.php made changes</description>
       </updated>
       <created>
@@ -773,8 +773,8 @@ XYyEMr6yf4hHsEfIxtPmAAAAF2JhcmlzQGFsa2EtYXV0b3RlaWxlLmRlAQIDBAUG&#13;
   </ntpd>
   <revision>
     <username>root@192.168.1.195</username>
-    <description>/services_dhcp.php made changes</description>
-    <time>1756480080.56</time>
+    <description>/firewall_rules_edit.php made changes</description>
+    <time>1756481807.99</time>
   </revision>
   <OPNsense>
     <wireguard>
