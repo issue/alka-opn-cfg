@@ -465,31 +465,6 @@ XYyEMr6yf4hHsEfIxtPmAAAAF2JhcmlzQGFsa2EtYXV0b3RlaWxlLmRlAQIDBAUG&#13;
         <any/>
       </destination>
     </rule>
-    <rule uuid="f0156342-367c-48ec-8c7c-652dbf721879">
-      <type>pass</type>
-      <interface>lan</interface>
-      <ipprotocol>inet</ipprotocol>
-      <statetype>keep state</statetype>
-      <descr>Default allow LAN to any rule</descr>
-      <direction>in</direction>
-      <quick>1</quick>
-      <source>
-        <network>opt4</network>
-      </source>
-      <destination>
-        <any>1</any>
-      </destination>
-      <updated>
-        <username>root@192.168.1.195</username>
-        <time>1756475406.52</time>
-        <description>/firewall_rules_edit.php made changes</description>
-      </updated>
-      <created>
-        <username>root@192.168.1.195</username>
-        <time>1756475406.52</time>
-        <description>/firewall_rules_edit.php made changes</description>
-      </created>
-    </rule>
     <rule uuid="628e427b-ea87-4370-964f-95db4e05ff83">
       <type>pass</type>
       <ipprotocol>inet6</ipprotocol>
@@ -630,6 +605,31 @@ XYyEMr6yf4hHsEfIxtPmAAAAF2JhcmlzQGFsa2EtYXV0b3RlaWxlLmRlAQIDBAUG&#13;
         <description>/firewall_rules_edit.php made changes</description>
       </created>
     </rule>
+    <rule uuid="f0156342-367c-48ec-8c7c-652dbf721879">
+      <type>pass</type>
+      <interface>opt4</interface>
+      <ipprotocol>inet</ipprotocol>
+      <statetype>keep state</statetype>
+      <descr>Default allow LAN to any rule</descr>
+      <direction>in</direction>
+      <quick>1</quick>
+      <source>
+        <network>opt4</network>
+      </source>
+      <destination>
+        <any>1</any>
+      </destination>
+      <updated>
+        <username>root@192.168.1.195</username>
+        <time>1756475418.84</time>
+        <description>/firewall_rules_edit.php made changes</description>
+      </updated>
+      <created>
+        <username>root@192.168.1.195</username>
+        <time>1756475406.52</time>
+        <description>/firewall_rules_edit.php made changes</description>
+      </created>
+    </rule>
     <rule uuid="66507bb4-8095-4e83-a99b-99b66b016ef0">
       <type>pass</type>
       <interface>opt6</interface>
@@ -714,7 +714,7 @@ XYyEMr6yf4hHsEfIxtPmAAAAF2JhcmlzQGFsa2EtYXV0b3RlaWxlLmRlAQIDBAUG&#13;
   <revision>
     <username>root@192.168.1.195</username>
     <description>/firewall_rules_edit.php made changes</description>
-    <time>1756475406.64</time>
+    <time>1756475418.96</time>
   </revision>
   <OPNsense>
     <wireguard>
