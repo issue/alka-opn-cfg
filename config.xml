@@ -13,11 +13,6 @@
       <value>1000000</value>
       <descr>Automatically added by Zenarmor</descr>
     </item>
-    <item>
-      <tunable>dev.netmap.admode</tunable>
-      <value>2</value>
-      <descr>Automatically added by Zenarmor</descr>
-    </item>
   </sysctl>
   <system>
     <optimization>normal</optimization>
@@ -610,6 +605,30 @@ XYyEMr6yf4hHsEfIxtPmAAAAF2JhcmlzQGFsa2EtYXV0b3RlaWxlLmRlAQIDBAUG&#13;
         <description>/firewall_rules_edit.php made changes</description>
       </created>
     </rule>
+    <rule uuid="ac20500e-cf65-4af0-8202-c4df1a2d49e9">
+      <type>pass</type>
+      <interface>opt4</interface>
+      <ipprotocol>inet</ipprotocol>
+      <statetype>keep state</statetype>
+      <direction>in</direction>
+      <quick>1</quick>
+      <source>
+        <any>1</any>
+      </source>
+      <destination>
+        <any>1</any>
+      </destination>
+      <updated>
+        <username>root@192.168.1.195</username>
+        <time>1755436844.23</time>
+        <description>/firewall_rules_edit.php made changes</description>
+      </updated>
+      <created>
+        <username>root@192.168.1.195</username>
+        <time>1755436844.23</time>
+        <description>/firewall_rules_edit.php made changes</description>
+      </created>
+    </rule>
     <rule uuid="be07036e-c717-4e0b-94de-808cc8a79d1f">
       <type>pass</type>
       <interface>opt4</interface>
@@ -657,30 +676,6 @@ XYyEMr6yf4hHsEfIxtPmAAAAF2JhcmlzQGFsa2EtYXV0b3RlaWxlLmRlAQIDBAUG&#13;
       <created>
         <username>root@192.168.1.195</username>
         <time>1756297027.43</time>
-        <description>/firewall_rules_edit.php made changes</description>
-      </created>
-    </rule>
-    <rule uuid="ac20500e-cf65-4af0-8202-c4df1a2d49e9">
-      <type>pass</type>
-      <interface>opt4</interface>
-      <ipprotocol>inet</ipprotocol>
-      <statetype>keep state</statetype>
-      <direction>in</direction>
-      <quick>1</quick>
-      <source>
-        <any>1</any>
-      </source>
-      <destination>
-        <any>1</any>
-      </destination>
-      <updated>
-        <username>root@192.168.1.195</username>
-        <time>1755436844.23</time>
-        <description>/firewall_rules_edit.php made changes</description>
-      </updated>
-      <created>
-        <username>root@192.168.1.195</username>
-        <time>1755436844.23</time>
         <description>/firewall_rules_edit.php made changes</description>
       </created>
     </rule>
@@ -767,8 +762,8 @@ XYyEMr6yf4hHsEfIxtPmAAAAF2JhcmlzQGFsa2EtYXV0b3RlaWxlLmRlAQIDBAUG&#13;
   </ntpd>
   <revision>
     <username>root@192.168.1.195</username>
-    <description>/api/zenarmor/configuration/deployment made changes</description>
-    <time>1756474953.25</time>
+    <description>/firewall_rules.php made changes</description>
+    <time>1756475103.64</time>
   </revision>
   <OPNsense>
     <wireguard>
