@@ -767,8 +767,8 @@ XYyEMr6yf4hHsEfIxtPmAAAAF2JhcmlzQGFsa2EtYXV0b3RlaWxlLmRlAQIDBAUG&#13;
   </ntpd>
   <revision>
     <username>root@192.168.1.195</username>
-    <description>/api/dhcrelay/settings/toggle_relay/da49cbc6-0485-476f-b417-3e94187b40fa made changes</description>
-    <time>1756474798.11</time>
+    <description>/services_dhcp.php made changes</description>
+    <time>1756474838.64</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -3567,7 +3567,22 @@ __opt2_network</content>
     <serial/>
     <caref/>
   </ca>
-  <dhcpd/>
+  <dhcpd>
+    <opt1>
+      <enable>1</enable>
+      <ddnsdomainalgorithm>hmac-md5</ddnsdomainalgorithm>
+      <numberoptions>
+        <item/>
+      </numberoptions>
+      <range>
+        <from>172.16.204.20</from>
+        <to>172.16.204.200</to>
+      </range>
+      <winsserver/>
+      <dnsserver/>
+      <ntpserver/>
+    </opt1>
+  </dhcpd>
   <dhcpdv6>
     <lan>
       <enable>-1</enable>
