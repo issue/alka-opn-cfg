@@ -453,30 +453,6 @@ XYyEMr6yf4hHsEfIxtPmAAAAF2JhcmlzQGFsa2EtYXV0b3RlaWxlLmRlAQIDBAUG&#13;
         <description>/firewall_nat_edit.php made changes</description>
       </created>
     </rule>
-    <rule uuid="8a3ac2fc-ba34-4683-bab7-0480323c72cf">
-      <type>pass</type>
-      <ipprotocol>inet</ipprotocol>
-      <descr>Default allow LAN to any rule</descr>
-      <interface>lan</interface>
-      <source>
-        <network>lan</network>
-      </source>
-      <destination>
-        <any/>
-      </destination>
-    </rule>
-    <rule uuid="628e427b-ea87-4370-964f-95db4e05ff83">
-      <type>pass</type>
-      <ipprotocol>inet6</ipprotocol>
-      <descr>Default allow LAN IPv6 to any rule</descr>
-      <interface>lan</interface>
-      <source>
-        <network>lan</network>
-      </source>
-      <destination>
-        <any/>
-      </destination>
-    </rule>
     <rule uuid="9898317a-5ccf-49aa-8319-380258c97ddc">
       <type>pass</type>
       <interface>lan</interface>
@@ -500,6 +476,30 @@ XYyEMr6yf4hHsEfIxtPmAAAAF2JhcmlzQGFsa2EtYXV0b3RlaWxlLmRlAQIDBAUG&#13;
         <time>1756475588.42</time>
         <description>/firewall_rules_edit.php made changes</description>
       </created>
+    </rule>
+    <rule uuid="8a3ac2fc-ba34-4683-bab7-0480323c72cf">
+      <type>pass</type>
+      <ipprotocol>inet</ipprotocol>
+      <descr>Default allow LAN to any rule</descr>
+      <interface>lan</interface>
+      <source>
+        <network>lan</network>
+      </source>
+      <destination>
+        <any/>
+      </destination>
+    </rule>
+    <rule uuid="628e427b-ea87-4370-964f-95db4e05ff83">
+      <type>pass</type>
+      <ipprotocol>inet6</ipprotocol>
+      <descr>Default allow LAN IPv6 to any rule</descr>
+      <interface>lan</interface>
+      <source>
+        <network>lan</network>
+      </source>
+      <destination>
+        <any/>
+      </destination>
     </rule>
     <rule uuid="a7bb5141-54c1-4ac4-9e85-acddc5fbd1ae">
       <type>pass</type>
@@ -737,8 +737,8 @@ XYyEMr6yf4hHsEfIxtPmAAAAF2JhcmlzQGFsa2EtYXV0b3RlaWxlLmRlAQIDBAUG&#13;
   </ntpd>
   <revision>
     <username>root@192.168.1.195</username>
-    <description>/firewall_rules_edit.php made changes</description>
-    <time>1756475625.34</time>
+    <description>/firewall_rules.php made changes</description>
+    <time>1756475629.42</time>
   </revision>
   <OPNsense>
     <wireguard>
