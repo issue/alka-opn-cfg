@@ -701,8 +701,8 @@ XYyEMr6yf4hHsEfIxtPmAAAAF2JhcmlzQGFsa2EtYXV0b3RlaWxlLmRlAQIDBAUG&#13;
   </ntpd>
   <revision>
     <username>root@192.168.1.195</username>
-    <description>/api/interfaces/vlan_settings/del_item/ece00ba2-298e-49e2-ba30-0019fc0a9d2b made changes</description>
-    <time>1756476173.16</time>
+    <description>/api/interfaces/vlan_settings/add_item/ made changes</description>
+    <time>1756476191.07</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -3405,7 +3405,7 @@ __opt2_network</content>
   <virtualip version="1.0.1" persisted_at="1755430129.25">
     <vip/>
   </virtualip>
-  <vlans version="1.0.0" persisted_at="1756476173.16">
+  <vlans version="1.0.0" persisted_at="1756476191.07">
     <vlan uuid="f5924b49-43ca-4a29-960f-24100631fac0">
       <if>em0</if>
       <tag>7</tag>
@@ -3453,6 +3453,14 @@ __opt2_network</content>
       <proto/>
       <descr>nvr</descr>
       <vlanif>vlan01</vlanif>
+    </vlan>
+    <vlan uuid="debe85fb-609d-47bd-a696-b7562689c50e">
+      <if>ix0</if>
+      <tag>209</tag>
+      <pcp>0</pcp>
+      <proto/>
+      <descr>wifi_adm</descr>
+      <vlanif>vlan02</vlanif>
     </vlan>
   </vlans>
   <staticroutes version="1.0.0" persisted_at="1755430129.52">
