@@ -761,8 +761,8 @@ XYyEMr6yf4hHsEfIxtPmAAAAF2JhcmlzQGFsa2EtYXV0b3RlaWxlLmRlAQIDBAUG&#13;
   </ntpd>
   <revision>
     <username>root@192.168.1.195</username>
-    <description>/services_dhcpv6.php made changes</description>
-    <time>1756448489.03</time>
+    <description>/api/zenarmor/configuration/shun_networks made changes</description>
+    <time>1756467023.06</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -1609,7 +1609,7 @@ __opt2_network</content>
       <hosts/>
       <aliases/>
     </unboundplus>
-    <Zenarmor version="0.0.0" persisted_at="1756297118.31">
+    <Zenarmor version="0.0.0" persisted_at="1756467023.06">
       <zenvpn>
         <enabled>1</enabled>
       </zenvpn>
@@ -1692,7 +1692,7 @@ __opt2_network</content>
       </general>
       <shun>
         <networks/>
-        <vlans/>
+        <vlans>209</vlans>
         <macs/>
       </shun>
       <bypass>
