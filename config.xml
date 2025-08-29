@@ -767,8 +767,8 @@ XYyEMr6yf4hHsEfIxtPmAAAAF2JhcmlzQGFsa2EtYXV0b3RlaWxlLmRlAQIDBAUG&#13;
   </ntpd>
   <revision>
     <username>root@192.168.1.195</username>
-    <description>/services_dhcp.php made changes</description>
-    <time>1756474850.62</time>
+    <description>/api/zenarmor/configuration/deployment?deploymentMode=routed&amp;showWan=true made changes</description>
+    <time>1756474906.58</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -1615,7 +1615,7 @@ __opt2_network</content>
       <hosts/>
       <aliases/>
     </unboundplus>
-    <Zenarmor version="0.0.0" persisted_at="1756471536.73">
+    <Zenarmor version="0.0.0" persisted_at="1756474906.58">
       <zenvpn>
         <enabled>1</enabled>
       </zenvpn>
