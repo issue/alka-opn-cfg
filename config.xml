@@ -557,6 +557,7 @@ XYyEMr6yf4hHsEfIxtPmAAAAF2JhcmlzQGFsa2EtYXV0b3RlaWxlLmRlAQIDBAUG&#13;
         <time>1755759351.58</time>
         <description>/firewall_rules_edit.php made changes</description>
       </created>
+      <disabled>1</disabled>
     </rule>
     <rule uuid="64133eb1-581f-43dd-b4ab-230425269db9">
       <type>pass</type>
@@ -766,8 +767,8 @@ XYyEMr6yf4hHsEfIxtPmAAAAF2JhcmlzQGFsa2EtYXV0b3RlaWxlLmRlAQIDBAUG&#13;
   </ntpd>
   <revision>
     <username>root@192.168.1.195</username>
-    <description>/api/zenarmor/configuration/deployment made changes</description>
-    <time>1756471536.73</time>
+    <description>/firewall_rules.php made changes</description>
+    <time>1756474438.17</time>
   </revision>
   <OPNsense>
     <wireguard>
