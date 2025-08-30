@@ -797,8 +797,8 @@ XYyEMr6yf4hHsEfIxtPmAAAAF2JhcmlzQGFsa2EtYXV0b3RlaWxlLmRlAQIDBAUG&#13;
   </ntpd>
   <revision>
     <username>root@172.16.244.2</username>
-    <description>/api/haproxy/settings/set_backend/a4c17e71-619f-4b4b-8a72-011dfd57a2eb made changes</description>
-    <time>1756573284.31</time>
+    <description>/api/haproxy/settings/set_frontend/12a28d77-6954-447c-a4cf-aa6b6d3b3120 made changes</description>
+    <time>1756573314.56</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -2257,7 +2257,7 @@ __opt2_network</content>
         </action>
       </actions>
     </AcmeClient>
-    <HAProxy version="4.1.0" persisted_at="1756573284.31">
+    <HAProxy version="4.1.0" persisted_at="1756573314.56">
       <general>
         <enabled>1</enabled>
         <gracefulStop>0</gracefulStop>
@@ -2407,7 +2407,7 @@ __opt2_network</content>
           <prometheus_path>/metrics</prometheus_path>
           <connectionBehaviour>http-keep-alive</connectionBehaviour>
           <customOptions/>
-          <linkedActions>ec6d15a7-df41-4b6f-aaf8-bcf1e55a26cb,f642c16e-d193-48c5-9a1d-9a67d947fed8,f43372e0-4e88-408b-ae08-fe057acbb547,f788ecef-ed74-4a52-8925-1dfbef73f41b</linkedActions>
+          <linkedActions>ec6d15a7-df41-4b6f-aaf8-bcf1e55a26cb,f642c16e-d193-48c5-9a1d-9a67d947fed8,f43372e0-4e88-408b-ae08-fe057acbb547,f788ecef-ed74-4a52-8925-1dfbef73f41b,e3204ddc-33e5-4b34-ab85-98dedae0ab46</linkedActions>
           <linkedErrorfiles/>
         </frontend>
       </frontends>
