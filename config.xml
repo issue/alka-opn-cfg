@@ -797,8 +797,8 @@ XYyEMr6yf4hHsEfIxtPmAAAAF2JhcmlzQGFsa2EtYXV0b3RlaWxlLmRlAQIDBAUG&#13;
   </ntpd>
   <revision>
     <username>root@172.16.244.2</username>
-    <description>/api/haproxy/settings/set_server/7c1ebe27-989a-49c1-ab65-51a4bb62aa9a made changes</description>
-    <time>1756573197.59</time>
+    <description>/api/haproxy/settings/set_backend/a4c17e71-619f-4b4b-8a72-011dfd57a2eb made changes</description>
+    <time>1756573284.31</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -2257,7 +2257,7 @@ __opt2_network</content>
         </action>
       </actions>
     </AcmeClient>
-    <HAProxy version="4.1.0" persisted_at="1756573197.59">
+    <HAProxy version="4.1.0" persisted_at="1756573284.31">
       <general>
         <enabled>1</enabled>
         <gracefulStop>0</gracefulStop>
@@ -2679,7 +2679,7 @@ __opt2_network</content>
           <http2Enabled_nontls>0</http2Enabled_nontls>
           <ba_advertised_protocols>h2,http11</ba_advertised_protocols>
           <forwardFor>1</forwardFor>
-          <forwardedHeader>0</forwardedHeader>
+          <forwardedHeader>1</forwardedHeader>
           <forwardedHeaderParameters/>
           <persistence>sticktable</persistence>
           <persistence_cookiemode>piggyback</persistence_cookiemode>
