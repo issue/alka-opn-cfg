@@ -797,8 +797,8 @@ XYyEMr6yf4hHsEfIxtPmAAAAF2JhcmlzQGFsa2EtYXV0b3RlaWxlLmRlAQIDBAUG&#13;
   </ntpd>
   <revision>
     <username>root@172.16.244.2</username>
-    <description>/api/acmeclient/certificates/update/e8b55078-ed18-4232-9211-0903428bbef0 made changes</description>
-    <time>1756572413.43</time>
+    <description>/api/haproxy/settings/add_backend/ made changes</description>
+    <time>1756572612.62</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -2257,7 +2257,7 @@ __opt2_network</content>
         </action>
       </actions>
     </AcmeClient>
-    <HAProxy version="4.1.0" persisted_at="1756572321.63">
+    <HAProxy version="4.1.0" persisted_at="1756572612.62">
       <general>
         <enabled>1</enabled>
         <gracefulStop>0</gracefulStop>
@@ -2609,6 +2609,66 @@ __opt2_network</content>
           <source/>
           <healthCheckEnabled>1</healthCheckEnabled>
           <healthCheck>d97e77ec-8cdd-46e9-8b15-c767f3e9eed6</healthCheck>
+          <healthCheckLogStatus>0</healthCheckLogStatus>
+          <checkInterval/>
+          <checkDownInterval/>
+          <healthCheckFall/>
+          <healthCheckRise/>
+          <linkedMailer/>
+          <http2Enabled>1</http2Enabled>
+          <http2Enabled_nontls>0</http2Enabled_nontls>
+          <ba_advertised_protocols>h2,http11</ba_advertised_protocols>
+          <forwardFor>1</forwardFor>
+          <forwardedHeader>0</forwardedHeader>
+          <forwardedHeaderParameters/>
+          <persistence>sticktable</persistence>
+          <persistence_cookiemode>piggyback</persistence_cookiemode>
+          <persistence_cookiename>SRVCOOKIE</persistence_cookiename>
+          <persistence_stripquotes>1</persistence_stripquotes>
+          <stickiness_pattern>sourceipv4</stickiness_pattern>
+          <stickiness_dataTypes/>
+          <stickiness_expire>30m</stickiness_expire>
+          <stickiness_size>50k</stickiness_size>
+          <stickiness_cookiename/>
+          <stickiness_cookielength/>
+          <stickiness_connRatePeriod>10s</stickiness_connRatePeriod>
+          <stickiness_sessRatePeriod>10s</stickiness_sessRatePeriod>
+          <stickiness_httpReqRatePeriod>10s</stickiness_httpReqRatePeriod>
+          <stickiness_httpErrRatePeriod>10s</stickiness_httpErrRatePeriod>
+          <stickiness_bytesInRatePeriod>1m</stickiness_bytesInRatePeriod>
+          <stickiness_bytesOutRatePeriod>1m</stickiness_bytesOutRatePeriod>
+          <basicAuthEnabled>0</basicAuthEnabled>
+          <basicAuthUsers/>
+          <basicAuthGroups/>
+          <tuning_timeoutConnect/>
+          <tuning_timeoutCheck/>
+          <tuning_timeoutServer/>
+          <tuning_retries/>
+          <customOptions/>
+          <tuning_defaultserver/>
+          <tuning_noport>0</tuning_noport>
+          <tuning_httpreuse>safe</tuning_httpreuse>
+          <tuning_caching>0</tuning_caching>
+          <linkedActions/>
+          <linkedErrorfiles/>
+        </backend>
+        <backend uuid="a4c17e71-619f-4b4b-8a72-011dfd57a2eb">
+          <id>68b32bc492ad30.96503483</id>
+          <enabled>1</enabled>
+          <name>AlkaAPI</name>
+          <description/>
+          <mode>http</mode>
+          <algorithm>source</algorithm>
+          <random_draws>2</random_draws>
+          <proxyProtocol/>
+          <linkedServers>7c1ebe27-989a-49c1-ab65-51a4bb62aa9a</linkedServers>
+          <linkedFcgi/>
+          <linkedResolver/>
+          <resolverOpts/>
+          <resolvePrefer/>
+          <source/>
+          <healthCheckEnabled>1</healthCheckEnabled>
+          <healthCheck>88906dff-5d6b-44a8-9566-8a757a29eae1</healthCheck>
           <healthCheckLogStatus>0</healthCheckLogStatus>
           <checkInterval/>
           <checkDownInterval/>
