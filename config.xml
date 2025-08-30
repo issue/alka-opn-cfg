@@ -797,8 +797,8 @@ XYyEMr6yf4hHsEfIxtPmAAAAF2JhcmlzQGFsa2EtYXV0b3RlaWxlLmRlAQIDBAUG&#13;
   </ntpd>
   <revision>
     <username>root@172.16.244.2</username>
-    <description>/api/haproxy/settings/add_action/ made changes</description>
-    <time>1756572676.25</time>
+    <description>/api/haproxy/settings/set_server/7c1ebe27-989a-49c1-ab65-51a4bb62aa9a made changes</description>
+    <time>1756572715.93</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -2257,7 +2257,7 @@ __opt2_network</content>
         </action>
       </actions>
     </AcmeClient>
-    <HAProxy version="4.1.0" persisted_at="1756572676.25">
+    <HAProxy version="4.1.0" persisted_at="1756572715.93">
       <general>
         <enabled>1</enabled>
         <gracefulStop>0</gracefulStop>
@@ -2840,7 +2840,7 @@ __opt2_network</content>
           <name>AlkaAPI</name>
           <description/>
           <address>192.168.1.82</address>
-          <port/>
+          <port>443</port>
           <checkport/>
           <mode>active</mode>
           <multiplexer_protocol>unspecified</multiplexer_protocol>
