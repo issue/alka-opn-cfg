@@ -797,8 +797,8 @@ XYyEMr6yf4hHsEfIxtPmAAAAF2JhcmlzQGFsa2EtYXV0b3RlaWxlLmRlAQIDBAUG&#13;
   </ntpd>
   <revision>
     <username>root@172.16.244.2</username>
-    <description>/api/acmeclient/actions/add/ made changes</description>
-    <time>1756572373.11</time>
+    <description>/api/acmeclient/certificates/update/e8b55078-ed18-4232-9211-0903428bbef0 made changes</description>
+    <time>1756572413.43</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -1857,7 +1857,7 @@ __opt2_network</content>
         <webcategoriesType/>
       </rules>
     </Zenarmor>
-    <AcmeClient version="4.3.0" persisted_at="1756572373.11">
+    <AcmeClient version="4.3.0" persisted_at="1756572413.43">
       <settings>
         <enabled>1</enabled>
         <autoRenewal>1</autoRenewal>
@@ -1901,7 +1901,7 @@ __opt2_network</content>
           <validationMethod>be08746a-f7b3-4fa0-b697-adbe969420e9</validationMethod>
           <keyLength>key_4096</keyLength>
           <ocsp>0</ocsp>
-          <restartActions/>
+          <restartActions>74975058-3fd5-400d-9bb0-339070d0b4c7</restartActions>
           <autoRenewal>1</autoRenewal>
           <renewInterval>60</renewInterval>
           <aliasmode>none</aliasmode>
