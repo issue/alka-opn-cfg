@@ -797,8 +797,8 @@ XYyEMr6yf4hHsEfIxtPmAAAAF2JhcmlzQGFsa2EtYXV0b3RlaWxlLmRlAQIDBAUG&#13;
   </ntpd>
   <revision>
     <username>root@172.16.244.2</username>
-    <description>/api/haproxy/settings/add_healthcheck/ made changes</description>
-    <time>1756572321.63</time>
+    <description>/api/acmeclient/actions/add/ made changes</description>
+    <time>1756572373.11</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -1857,7 +1857,7 @@ __opt2_network</content>
         <webcategoriesType/>
       </rules>
     </Zenarmor>
-    <AcmeClient version="4.3.0" persisted_at="1756395265.49">
+    <AcmeClient version="4.3.0" persisted_at="1756572373.11">
       <settings>
         <enabled>1</enabled>
         <autoRenewal>1</autoRenewal>
@@ -2188,7 +2188,74 @@ __opt2_network</content>
           <dns_scaleway_token/>
         </validation>
       </validations>
-      <actions/>
+      <actions>
+        <action uuid="74975058-3fd5-400d-9bb0-339070d0b4c7">
+          <id>68b32ad51a3b27.33901600</id>
+          <enabled>1</enabled>
+          <name>RestartHAProxy</name>
+          <description/>
+          <type>configd_restart_haproxy</type>
+          <sftp_host/>
+          <sftp_host_key/>
+          <sftp_port>22</sftp_port>
+          <sftp_user/>
+          <sftp_identity_type/>
+          <sftp_remote_path/>
+          <sftp_chgrp/>
+          <sftp_chmod/>
+          <sftp_chmod_key/>
+          <sftp_modtime>0</sftp_modtime>
+          <sftp_filename_cert/>
+          <sftp_filename_key/>
+          <sftp_filename_ca/>
+          <sftp_filename_fullchain/>
+          <remote_ssh_host/>
+          <remote_ssh_host_key/>
+          <remote_ssh_port>22</remote_ssh_port>
+          <remote_ssh_user/>
+          <remote_ssh_identity_type/>
+          <remote_ssh_command/>
+          <configd/>
+          <configd_generic_command/>
+          <acme_synology_dsm_hostname/>
+          <acme_synology_dsm_port>5000</acme_synology_dsm_port>
+          <acme_synology_dsm_scheme>http</acme_synology_dsm_scheme>
+          <acme_synology_dsm_username/>
+          <acme_synology_dsm_password/>
+          <acme_synology_dsm_create>1</acme_synology_dsm_create>
+          <acme_synology_dsm_deviceid/>
+          <acme_synology_dsm_devicename/>
+          <acme_synology_dsm_otpcode/>
+          <acme_fritzbox_url/>
+          <acme_fritzbox_username/>
+          <acme_fritzbox_password/>
+          <acme_panos_username/>
+          <acme_panos_password/>
+          <acme_panos_host/>
+          <acme_proxmoxve_user>root</acme_proxmoxve_user>
+          <acme_proxmoxve_server/>
+          <acme_proxmoxve_port>8006</acme_proxmoxve_port>
+          <acme_proxmoxve_nodename/>
+          <acme_proxmoxve_realm>pam</acme_proxmoxve_realm>
+          <acme_proxmoxve_tokenid>acme</acme_proxmoxve_tokenid>
+          <acme_proxmoxve_tokenkey/>
+          <acme_proxmoxbs_user>root</acme_proxmoxbs_user>
+          <acme_proxmoxbs_server/>
+          <acme_proxmoxbs_port>8007</acme_proxmoxbs_port>
+          <acme_proxmoxbs_nodename>localhost</acme_proxmoxbs_nodename>
+          <acme_proxmoxbs_realm>pam</acme_proxmoxbs_realm>
+          <acme_proxmoxbs_tokenid>acme</acme_proxmoxbs_tokenid>
+          <acme_proxmoxbs_tokenkey/>
+          <acme_truenas_apikey/>
+          <acme_truenas_hostname>localhost</acme_truenas_hostname>
+          <acme_truenas_scheme>http</acme_truenas_scheme>
+          <acme_unifi_keystore>/usr/local/share/java/unifi/data/keystore</acme_unifi_keystore>
+          <acme_vault_url/>
+          <acme_vault_prefix>acme</acme_vault_prefix>
+          <acme_vault_token/>
+          <acme_vault_kvv2>1</acme_vault_kvv2>
+        </action>
+      </actions>
     </AcmeClient>
     <HAProxy version="4.1.0" persisted_at="1756572321.63">
       <general>
