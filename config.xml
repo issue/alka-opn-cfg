@@ -639,7 +639,6 @@ XYyEMr6yf4hHsEfIxtPmAAAAF2JhcmlzQGFsa2EtYXV0b3RlaWxlLmRlAQIDBAUG&#13;
         <time>1755681301.69</time>
         <description>/firewall_rules_edit.php made changes</description>
       </created>
-      <disabled>1</disabled>
     </rule>
     <rule uuid="6d9bf652-e855-4f49-b4f1-d9e5d29f8fd2">
       <type>pass</type>
@@ -798,8 +797,8 @@ XYyEMr6yf4hHsEfIxtPmAAAAF2JhcmlzQGFsa2EtYXV0b3RlaWxlLmRlAQIDBAUG&#13;
   </ntpd>
   <revision>
     <username>root@192.168.1.74</username>
-    <description>/api/dhcrelay/settings/set_relay/da49cbc6-0485-476f-b417-3e94187b40fa made changes</description>
-    <time>1756813892.85</time>
+    <description>/firewall_rules.php made changes</description>
+    <time>1756814064.39</time>
   </revision>
   <OPNsense>
     <wireguard>
