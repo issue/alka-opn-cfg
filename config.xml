@@ -789,6 +789,31 @@ XYyEMr6yf4hHsEfIxtPmAAAAF2JhcmlzQGFsa2EtYXV0b3RlaWxlLmRlAQIDBAUG&#13;
         <description>/firewall_rules_edit.php made changes</description>
       </created>
     </rule>
+    <rule uuid="09ff0a3a-a3eb-46f1-9288-d1349d1cdf64">
+      <type>pass</type>
+      <interface>opt7</interface>
+      <ipprotocol>inet6</ipprotocol>
+      <statetype>keep state</statetype>
+      <descr>Default allow VM to any rule</descr>
+      <direction>in</direction>
+      <quick>1</quick>
+      <source>
+        <network>opt7</network>
+      </source>
+      <destination>
+        <any>1</any>
+      </destination>
+      <updated>
+        <username>root@192.168.1.195</username>
+        <time>1757408344.52</time>
+        <description>/firewall_rules_edit.php made changes</description>
+      </updated>
+      <created>
+        <username>root@192.168.1.195</username>
+        <time>1757408344.52</time>
+        <description>/firewall_rules_edit.php made changes</description>
+      </created>
+    </rule>
     <rule uuid="d0922961-6d14-4a5d-95c5-2bde7472dffe">
       <type>pass</type>
       <interface>wireguard</interface>
@@ -823,7 +848,7 @@ XYyEMr6yf4hHsEfIxtPmAAAAF2JhcmlzQGFsa2EtYXV0b3RlaWxlLmRlAQIDBAUG&#13;
   <revision>
     <username>root@192.168.1.195</username>
     <description>/firewall_rules_edit.php made changes</description>
-    <time>1757408333.44</time>
+    <time>1757408344.64</time>
   </revision>
   <OPNsense>
     <wireguard>
