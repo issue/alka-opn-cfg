@@ -764,6 +764,31 @@ XYyEMr6yf4hHsEfIxtPmAAAAF2JhcmlzQGFsa2EtYXV0b3RlaWxlLmRlAQIDBAUG&#13;
         <description>/firewall_rules_edit.php made changes</description>
       </created>
     </rule>
+    <rule uuid="2ffc5c68-bc7c-4705-89a3-10121b71edc6">
+      <type>pass</type>
+      <interface>opt7</interface>
+      <ipprotocol>inet</ipprotocol>
+      <statetype>keep state</statetype>
+      <descr>Default allow VM to any rule</descr>
+      <direction>in</direction>
+      <quick>1</quick>
+      <source>
+        <network>opt7</network>
+      </source>
+      <destination>
+        <any>1</any>
+      </destination>
+      <updated>
+        <username>root@192.168.1.195</username>
+        <time>1757408333.33</time>
+        <description>/firewall_rules_edit.php made changes</description>
+      </updated>
+      <created>
+        <username>root@192.168.1.195</username>
+        <time>1757408333.33</time>
+        <description>/firewall_rules_edit.php made changes</description>
+      </created>
+    </rule>
     <rule uuid="d0922961-6d14-4a5d-95c5-2bde7472dffe">
       <type>pass</type>
       <interface>wireguard</interface>
@@ -796,9 +821,9 @@ XYyEMr6yf4hHsEfIxtPmAAAAF2JhcmlzQGFsa2EtYXV0b3RlaWxlLmRlAQIDBAUG&#13;
     <prefer>192.168.1.3</prefer>
   </ntpd>
   <revision>
-    <username>(system)</username>
-    <description>/usr/local/opnsense/mvc/app/library/OPNsense/Zenarmor/CLI.php made changes</description>
-    <time>1757408288.62</time>
+    <username>root@192.168.1.195</username>
+    <description>/firewall_rules_edit.php made changes</description>
+    <time>1757408333.44</time>
   </revision>
   <OPNsense>
     <wireguard>
