@@ -320,7 +320,7 @@ XYyEMr6yf4hHsEfIxtPmAAAAF2JhcmlzQGFsa2EtYXV0b3RlaWxlLmRlAQIDBAUG&#13;
   </snmpd>
   <nat>
     <outbound>
-      <mode>hybrid</mode>
+      <mode>automatic</mode>
       <rule/>
     </outbound>
     <rule>
@@ -836,9 +836,9 @@ XYyEMr6yf4hHsEfIxtPmAAAAF2JhcmlzQGFsa2EtYXV0b3RlaWxlLmRlAQIDBAUG&#13;
     <prefer>192.168.1.3</prefer>
   </ntpd>
   <revision>
-    <username>(system)</username>
-    <description>/usr/local/opnsense/scripts/firmware/register.php made changes</description>
-    <time>1758800057.74</time>
+    <username>root@192.168.1.195</username>
+    <description>/firewall_nat_out.php made changes</description>
+    <time>1758805598.24</time>
   </revision>
   <OPNsense>
     <wireguard>
