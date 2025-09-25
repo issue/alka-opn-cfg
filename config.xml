@@ -848,7 +848,7 @@ XYyEMr6yf4hHsEfIxtPmAAAAF2JhcmlzQGFsa2EtYXV0b3RlaWxlLmRlAQIDBAUG&#13;
   <revision>
     <username>(system)</username>
     <description>/usr/local/opnsense/mvc/app/library/OPNsense/Zenarmor/CLI.php made changes</description>
-    <time>1758799773.44</time>
+    <time>1758799774.46</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -997,7 +997,7 @@ XYyEMr6yf4hHsEfIxtPmAAAAF2JhcmlzQGFsa2EtYXV0b3RlaWxlLmRlAQIDBAUG&#13;
       <zones/>
       <templates/>
     </captiveportal>
-    <cron version="1.0.4" persisted_at="1758799758.45">
+    <cron version="1.0.4" persisted_at="1758799774.46">
       <jobs>
         <job uuid="072f5900-2d13-4452-bcd8-fd552b8d9e35">
           <origin>AcmeClient</origin>
@@ -1011,6 +1011,19 @@ XYyEMr6yf4hHsEfIxtPmAAAAF2JhcmlzQGFsa2EtYXV0b3RlaWxlLmRlAQIDBAUG&#13;
           <command>acmeclient cron-auto-renew</command>
           <parameters/>
           <description>AcmeClient Cronjob for Certificate AutoRenewal</description>
+        </job>
+        <job uuid="fd85ef1e-ad11-4811-ab8b-0c15c3552d47">
+          <origin>Zenarmor</origin>
+          <enabled>1</enabled>
+          <minutes>*</minutes>
+          <hours>*</hours>
+          <days>*</days>
+          <months>*</months>
+          <weekdays>*</weekdays>
+          <who>root</who>
+          <command>zenarmor periodicals</command>
+          <parameters/>
+          <description>Zenarmor periodicals</description>
         </job>
       </jobs>
     </cron>
