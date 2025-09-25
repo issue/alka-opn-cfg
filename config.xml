@@ -3,16 +3,6 @@
   <theme>opnsense-dark</theme>
   <sysctl version="1.0.1" persisted_at="1755430128.09">
     <item/>
-    <item>
-      <tunable>dev.netmap.ring_num</tunable>
-      <value>1024</value>
-      <descr>Automatically added by Zenarmor</descr>
-    </item>
-    <item>
-      <tunable>dev.netmap.buf_num</tunable>
-      <value>1000000</value>
-      <descr>Automatically added by Zenarmor</descr>
-    </item>
   </sysctl>
   <system>
     <optimization>normal</optimization>
@@ -846,9 +836,9 @@ XYyEMr6yf4hHsEfIxtPmAAAAF2JhcmlzQGFsa2EtYXV0b3RlaWxlLmRlAQIDBAUG&#13;
     <prefer>192.168.1.3</prefer>
   </ntpd>
   <revision>
-    <username>root@192.168.1.195</username>
-    <description>/api/zenarmor/installer/uninstall made changes</description>
-    <time>1758800048.34</time>
+    <username>(system)</username>
+    <description>/usr/local/opnsense/mvc/app/library/OPNsense/Zenarmor/CLI.php made changes</description>
+    <time>1758800048.83</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -997,7 +987,7 @@ XYyEMr6yf4hHsEfIxtPmAAAAF2JhcmlzQGFsa2EtYXV0b3RlaWxlLmRlAQIDBAUG&#13;
       <zones/>
       <templates/>
     </captiveportal>
-    <cron version="1.0.4" persisted_at="1758799774.46">
+    <cron version="1.0.4" persisted_at="1758800048.83">
       <jobs>
         <job uuid="072f5900-2d13-4452-bcd8-fd552b8d9e35">
           <origin>AcmeClient</origin>
@@ -1011,19 +1001,6 @@ XYyEMr6yf4hHsEfIxtPmAAAAF2JhcmlzQGFsa2EtYXV0b3RlaWxlLmRlAQIDBAUG&#13;
           <command>acmeclient cron-auto-renew</command>
           <parameters/>
           <description>AcmeClient Cronjob for Certificate AutoRenewal</description>
-        </job>
-        <job uuid="fd85ef1e-ad11-4811-ab8b-0c15c3552d47">
-          <origin>Zenarmor</origin>
-          <enabled>1</enabled>
-          <minutes>*</minutes>
-          <hours>*</hours>
-          <days>*</days>
-          <months>*</months>
-          <weekdays>*</weekdays>
-          <who>root</who>
-          <command>zenarmor periodicals</command>
-          <parameters/>
-          <description>Zenarmor periodicals</description>
         </job>
       </jobs>
     </cron>
@@ -1695,218 +1672,6 @@ __opt2_network</content>
       <hosts/>
       <aliases/>
     </unboundplus>
-    <Zenarmor version="0.0.0" persisted_at="1758800048.34">
-      <zenvpn>
-        <enabled>1</enabled>
-      </zenvpn>
-      <logger>
-        <severityLevel>INFO</severityLevel>
-        <rotation>1d</rotation>
-        <retire>3</retire>
-      </logger>
-      <sso>
-        <enabled>false</enabled>
-        <exemptDeviceCategories/>
-        <redirectBaseUrl/>
-        <sessionExpireTimeout>86400</sessionExpireTimeout>
-        <sessionInactivityTimeout>28800</sessionInactivityTimeout>
-      </sso>
-      <cti>
-        <enabled>true</enabled>
-        <globalCtiHost>cti.zenarmor.net</globalCtiHost>
-        <globalCtiPort>2096</globalCtiPort>
-      </cti>
-      <general>
-        <installTimestamp>1758799767</installTimestamp>
-        <heartbeatTimer>13 1,9,18 * * *</heartbeatTimer>
-        <coreFileEnable>false</coreFileEnable>
-        <showWanIface>true</showWanIface>
-        <flavor>200</flavor>
-        <healthCheck>true</healthCheck>
-        <healthShare>true</healthShare>
-        <healthTimer>6,16,26,36,46,56 * * * *</healthTimer>
-        <updateTimer>56 * * * *</updateTimer>
-        <heartbeatMonit>true</heartbeatMonit>
-        <heartbeatData>true</heartbeatData>
-        <hwbypass>false</hwbypass>
-        <SenseiTempSize>50</SenseiTempSize>
-        <CloudManagementEnable>false</CloudManagementEnable>
-        <CloudManagementAdmin>baris@alka-autoteile.de</CloudManagementAdmin>
-        <CloudManagementUUID>db8736b5-3361-4a38-83fb-bc47fcc2fc75</CloudManagementUUID>
-        <license>
-          <plan>opnsense_home</plan>
-          <key>1852fc4d-ce00-4b25-8e41-da413fb5ef2d</key>
-          <startDate>2025-09-25T13:29:31+02:00</startDate>
-          <endDate>2025-09-18T10:13:52+02:00</endDate>
-          <Size>0</Size>
-        </license>
-        <support>
-          <key/>
-          <plan>Basic</plan>
-          <startDate/>
-          <endDate/>
-        </support>
-        <clientemail/>
-        <customerid>0000000000</customerid>
-        <sendcategory>true</sendcategory>
-        <bigquery>
-          <ProjectID/>
-          <CredentialFile/>
-          <Dataset/>
-          <MongoStreamEnabled>false</MongoStreamEnabled>
-          <MongoStreamURI/>
-        </bigquery>
-        <database>
-          <Type>ES</Type>
-          <Host>http://127.0.0.1</Host>
-          <Port>9200</Port>
-          <User/>
-          <Pass>b64:</Pass>
-          <Version>811300</Version>
-          <FullVersion>8.11.3</FullVersion>
-          <Remote>false</Remote>
-          <Prefix>zenarmor_0000000000_db8736b5-3361-4a38-83fb-bc47fcc2fc75_</Prefix>
-          <ClusterUUID>aK7LYPIBTF6lgT_tC1nzoQ</ClusterUUID>
-          <retireAfter>7</retireAfter>
-          <dbpath>/usr/local/datastore/elasticsearch</dbpath>
-        </database>
-        <swapRate>60</swapRate>
-        <swapRateEnabled>true</swapRateEnabled>
-        <maxmemoryusage>3072</maxmemoryusage>
-        <backupPath>/usr/local/datastore/backup</backupPath>
-        <traceFSSize>100M</traceFSSize>
-      </general>
-      <shun>
-        <networks/>
-        <vlans/>
-        <macs/>
-      </shun>
-      <bypass>
-        <enable>false</enable>
-        <mode>false</mode>
-      </bypass>
-      <haconfig>
-        <enable>false</enable>
-        <configUpdateTime/>
-        <policyUpdateTime/>
-      </haconfig>
-      <netflow>
-        <enabled>false</enabled>
-        <version>9</version>
-        <collectorip>127.0.0.1</collectorip>
-        <collectorport>9996</collectorport>
-      </netflow>
-      <updater>
-        <enabled>true</enabled>
-        <autocheck>true</autocheck>
-        <lastupdate/>
-      </updater>
-      <anonymize>
-        <localAddress>false</localAddress>
-        <remoteAddress>false</remoteAddress>
-      </anonymize>
-      <onboot>
-        <eastpect>YES</eastpect>
-        <elasticsearch>YES</elasticsearch>
-        <mongod>NO</mongod>
-        <senpai>YES</senpai>
-      </onboot>
-      <reports>
-        <refresh>60000</refresh>
-        <interval>3600000</interval>
-        <custominterval>
-          <start/>
-          <end/>
-        </custominterval>
-        <sum>volume</sum>
-        <size>10</size>
-        <showhostname>false</showhostname>
-        <showBlock>false</showBlock>
-        <showLocal>false</showLocal>
-        <generate>
-          <enabled>false</enabled>
-          <sum/>
-          <timer/>
-          <pdf>false</pdf>
-          <mail>
-            <server>127.0.0.1</server>
-            <port>25</port>
-            <secured>NO</secured>
-            <username/>
-            <password/>
-            <from/>
-            <to/>
-            <nosslverify>false</nosslverify>
-            <provider>smtp-server</provider>
-            <recipients/>
-          </mail>
-        </generate>
-      </reports>
-      <agentrestapi>
-        <enabled>false</enabled>
-      </agentrestapi>
-      <dnsEncrihmentConfig>
-        <servers>192.168.1.10</servers>
-        <reverse>true</reverse>
-        <aliases>true</aliases>
-      </dnsEncrihmentConfig>
-      <communityid>
-        <enabled>true</enabled>
-        <seed>0</seed>
-      </communityid>
-      <bigquery>
-        <enabled>true</enabled>
-      </bigquery>
-      <intrusiondetection>
-        <enabled>true</enabled>
-      </intrusiondetection>
-      <streamReportConfig>
-        <enabled>false</enabled>
-        <server/>
-        <port>514</port>
-        <protocol>UDP</protocol>
-        <indexes/>
-      </streamReportConfig>
-      <streamReportDataExternal>
-        <enabled>false</enabled>
-        <uri/>
-        <server/>
-        <port>9200</port>
-        <esVersion/>
-        <User/>
-        <Pass/>
-        <ClusterUUID/>
-      </streamReportDataExternal>
-      <dns>
-        <localDomain>alka-it.de,alka-autoteile.xyz</localDomain>
-      </dns>
-      <tls>
-        <enabled>false</enabled>
-        <certname/>
-        <passtopsites>false</passtopsites>
-      </tls>
-      <zenconsole>
-        <centralManagement>false</centralManagement>
-        <reportInfastructureError>true</reportInfastructureError>
-      </zenconsole>
-      <enrich>
-        <tcpServiceEnable>true</tcpServiceEnable>
-        <tcpServiceIP>127.0.0.1</tcpServiceIP>
-        <cloudWebcatEnrich>true</cloudWebcatEnrich>
-        <cloudResponseTimeout>0</cloudResponseTimeout>
-        <dns>true</dns>
-        <user>true</user>
-        <routerIdentification>true</routerIdentification>
-      </enrich>
-      <installation>
-        <whereDidYouHear/>
-        <whereDidYouHearOther/>
-      </installation>
-      <rules>
-        <decision_is_block>no</decision_is_block>
-        <webcategoriesType/>
-      </rules>
-    </Zenarmor>
     <AcmeClient version="4.3.0" persisted_at="1756572413.43">
       <settings>
         <enabled>1</enabled>
