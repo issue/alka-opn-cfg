@@ -846,9 +846,9 @@ XYyEMr6yf4hHsEfIxtPmAAAAF2JhcmlzQGFsa2EtYXV0b3RlaWxlLmRlAQIDBAUG&#13;
     <prefer>192.168.1.3</prefer>
   </ntpd>
   <revision>
-    <username>(system)</username>
-    <description>/usr/local/opnsense/mvc/app/library/OPNsense/Zenarmor/CLI.php made changes</description>
-    <time>1758799774.46</time>
+    <username>root@192.168.1.195</username>
+    <description>/api/zenarmor/configuration/license_detail made changes</description>
+    <time>1758799924.90</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -1695,7 +1695,7 @@ __opt2_network</content>
       <hosts/>
       <aliases/>
     </unboundplus>
-    <Zenarmor version="0.0.0" persisted_at="1758799773.44">
+    <Zenarmor version="0.0.0" persisted_at="1758799924.90">
       <zenvpn>
         <enabled>1</enabled>
       </zenvpn>
