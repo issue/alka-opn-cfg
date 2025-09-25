@@ -84,7 +84,7 @@
     <firmware version="1.0.1" persisted_at="1755433370.61">
       <mirror/>
       <flavour/>
-      <plugins>os-cpu-microcode-intel,os-crowdsec,os-git-backup,os-haproxy,os-net-snmp,os-ntopng,os-redis,os-sensei-agent,os-sensei-updater,os-smart,os-sunnyvalley</plugins>
+      <plugins>os-cpu-microcode-intel,os-crowdsec,os-git-backup,os-haproxy,os-net-snmp,os-ntopng,os-redis,os-sensei-agent,os-smart,os-sunnyvalley</plugins>
       <type/>
       <subscription/>
       <reboot>0</reboot>
@@ -838,7 +838,7 @@ XYyEMr6yf4hHsEfIxtPmAAAAF2JhcmlzQGFsa2EtYXV0b3RlaWxlLmRlAQIDBAUG&#13;
   <revision>
     <username>(system)</username>
     <description>/usr/local/opnsense/scripts/firmware/register.php made changes</description>
-    <time>1758800056.92</time>
+    <time>1758800057.40</time>
   </revision>
   <OPNsense>
     <wireguard>
