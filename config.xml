@@ -837,8 +837,8 @@ XYyEMr6yf4hHsEfIxtPmAAAAF2JhcmlzQGFsa2EtYXV0b3RlaWxlLmRlAQIDBAUG&#13;
   </ntpd>
   <revision>
     <username>(system)</username>
-    <description>/usr/local/opnsense/scripts/OPNsense/AcmeClient/lecert.php made changes</description>
-    <time>1763766007.52</time>
+    <description>/usr/local/opnsense/mvc/script/run_migrations.php made changes</description>
+    <time>1763829483.02</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -869,7 +869,7 @@ XYyEMr6yf4hHsEfIxtPmAAAAF2JhcmlzQGFsa2EtYXV0b3RlaWxlLmRlAQIDBAUG&#13;
       <general version="0.0.1" persisted_at="1756410283.59">
         <enabled>1</enabled>
       </general>
-      <server version="1.0.0" persisted_at="1756410282.38">
+      <server version="1.0.1" persisted_at="1763829482.02" description="WireGuard instance configuration">
         <servers>
           <server uuid="d639fd4e-459d-4eca-a363-7283e0f96cfb">
             <enabled>1</enabled>
@@ -885,6 +885,7 @@ XYyEMr6yf4hHsEfIxtPmAAAAF2JhcmlzQGFsa2EtYXV0b3RlaWxlLmRlAQIDBAUG&#13;
             <gateway/>
             <carp_depend_on/>
             <peers>ba7b69cb-b8d3-43d2-a1bf-640ba6081648,cfa5227a-1eaa-45ff-8657-30b36e826063</peers>
+            <debug>0</debug>
             <endpoint>vpn.alka-it.de:51928</endpoint>
             <peer_dns>192.168.1.10</peer_dns>
           </server>
@@ -1159,7 +1160,7 @@ __opt2_network</content>
       <activeTimeout>1800</activeTimeout>
       <inactiveTimeout>15</inactiveTimeout>
     </Netflow>
-    <IDS version="1.1.0" persisted_at="1755430129.00">
+    <IDS version="1.1.1" persisted_at="1763829481.62" description="Intrusion detection">
       <rules/>
       <policies/>
       <userDefinedRules/>
