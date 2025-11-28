@@ -836,9 +836,9 @@ XYyEMr6yf4hHsEfIxtPmAAAAF2JhcmlzQGFsa2EtYXV0b3RlaWxlLmRlAQIDBAUG&#13;
     <prefer>192.168.1.3</prefer>
   </ntpd>
   <revision>
-    <username>(system)</username>
-    <description>/usr/local/opnsense/scripts/OPNsense/AcmeClient/lecert.php made changes</description>
-    <time>1764337532.78</time>
+    <username>root@192.168.1.195</username>
+    <description>/api/acmeclient/validations/update/be08746a-f7b3-4fa0-b697-adbe969420e9 made changes</description>
+    <time>1764337741.06</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -1673,7 +1673,7 @@ __opt2_network</content>
       <hosts/>
       <aliases/>
     </unboundplus>
-    <AcmeClient version="4.3.0" persisted_at="1764337532.78" description="A secure ACME Client plugin">
+    <AcmeClient version="4.3.0" persisted_at="1764337741.06" description="A secure ACME Client plugin">
       <settings>
         <enabled>1</enabled>
         <autoRenewal>1</autoRenewal>
@@ -1785,7 +1785,7 @@ __opt2_network</content>
           <dns_bunny_api_key/>
           <dns_cf_email/>
           <dns_cf_key/>
-          <dns_cf_token>W9mddpVjv2aSPfa7q8dhXXtZvHhsHAXKBfd4ctXN</dns_cf_token>
+          <dns_cf_token>efbQXXsnB9uDrAv8T7sBxyzF8jqYgJmWyv3ohGiQ</dns_cf_token>
           <dns_cf_account_id>338634bbb00f75dcc7f5f4dc2462dab1</dns_cf_account_id>
           <dns_cf_zone_id/>
           <dns_cloudns_auth_id/>
