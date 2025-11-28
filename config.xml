@@ -836,9 +836,9 @@ XYyEMr6yf4hHsEfIxtPmAAAAF2JhcmlzQGFsa2EtYXV0b3RlaWxlLmRlAQIDBAUG&#13;
     <prefer>192.168.1.3</prefer>
   </ntpd>
   <revision>
-    <username>root@192.168.1.195</username>
-    <description>/api/acmeclient/validations/update/be08746a-f7b3-4fa0-b697-adbe969420e9 made changes</description>
-    <time>1764337741.06</time>
+    <username>(system)</username>
+    <description>/usr/local/opnsense/scripts/OPNsense/AcmeClient/lecert.php made changes</description>
+    <time>1764337762.23</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -1673,7 +1673,7 @@ __opt2_network</content>
       <hosts/>
       <aliases/>
     </unboundplus>
-    <AcmeClient version="4.3.0" persisted_at="1764337741.06" description="A secure ACME Client plugin">
+    <AcmeClient version="4.3.0" persisted_at="1764337762.23" description="A secure ACME Client plugin">
       <settings>
         <enabled>1</enabled>
         <autoRenewal>1</autoRenewal>
@@ -1726,7 +1726,7 @@ __opt2_network</content>
           <certRefId>68a1d23cb744a</certRefId>
           <lastUpdate>1756395265</lastUpdate>
           <statusCode>400</statusCode>
-          <statusLastUpdate>1764337532</statusLastUpdate>
+          <statusLastUpdate>1764337762</statusLastUpdate>
         </certificate>
         <certificate uuid="93d027a2-875f-40d0-9477-475cfe7bc2de">
           <id>68a34e4509af51.09397730</id>
