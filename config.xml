@@ -837,8 +837,8 @@ XYyEMr6yf4hHsEfIxtPmAAAAF2JhcmlzQGFsa2EtYXV0b3RlaWxlLmRlAQIDBAUG&#13;
   </ntpd>
   <revision>
     <username>root@192.168.1.74</username>
-    <description>/api/haproxy/settings/set_server/7c1ebe27-989a-49c1-ab65-51a4bb62aa9a made changes</description>
-    <time>1764769494.87</time>
+    <description>/api/haproxy/settings/set_backend/a4c17e71-619f-4b4b-8a72-011dfd57a2eb made changes</description>
+    <time>1764770495.39</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -2073,7 +2073,7 @@ __opt2_network</content>
         </action>
       </actions>
     </AcmeClient>
-    <HAProxy version="4.1.0" persisted_at="1764769494.87" description="the HAProxy load balancer">
+    <HAProxy version="4.1.0" persisted_at="1764770495.39" description="the HAProxy load balancer">
       <general>
         <enabled>1</enabled>
         <gracefulStop>0</gracefulStop>
