@@ -321,7 +321,37 @@ XYyEMr6yf4hHsEfIxtPmAAAAF2JhcmlzQGFsa2EtYXV0b3RlaWxlLmRlAQIDBAUG&#13;
   <nat>
     <outbound>
       <mode>hybrid</mode>
-      <rule/>
+      <rule>
+        <source>
+          <network>192.168.1.2/32</network>
+        </source>
+        <destination>
+          <any>1</any>
+        </destination>
+        <descr>PBX UDP</descr>
+        <category/>
+        <interface>wan</interface>
+        <tag/>
+        <tagged/>
+        <poolopts/>
+        <poolopts_sourcehashkey/>
+        <ipprotocol>inet</ipprotocol>
+        <target/>
+        <targetip_subnet>0</targetip_subnet>
+        <staticnatport>1</staticnatport>
+        <sourceport/>
+        <protocol>udp</protocol>
+        <updated>
+          <username>root@192.168.1.195</username>
+          <time>1764854476.98</time>
+          <description>/firewall_nat_out_edit.php made changes</description>
+        </updated>
+        <created>
+          <username>root@192.168.1.195</username>
+          <time>1764854476.98</time>
+          <description>/firewall_nat_out_edit.php made changes</description>
+        </created>
+      </rule>
     </outbound>
     <rule>
       <protocol>tcp/udp</protocol>
@@ -836,9 +866,9 @@ XYyEMr6yf4hHsEfIxtPmAAAAF2JhcmlzQGFsa2EtYXV0b3RlaWxlLmRlAQIDBAUG&#13;
     <prefer>192.168.1.3</prefer>
   </ntpd>
   <revision>
-    <username>root@192.168.1.74</username>
-    <description>/api/haproxy/settings/set_healthcheck/88906dff-5d6b-44a8-9566-8a757a29eae1 made changes</description>
-    <time>1764770635.68</time>
+    <username>root@192.168.1.195</username>
+    <description>/firewall_nat_out_edit.php made changes</description>
+    <time>1764854477.10</time>
   </revision>
   <OPNsense>
     <wireguard>
