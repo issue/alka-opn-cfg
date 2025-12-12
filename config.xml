@@ -867,8 +867,8 @@ XYyEMr6yf4hHsEfIxtPmAAAAF2JhcmlzQGFsa2EtYXV0b3RlaWxlLmRlAQIDBAUG&#13;
   </ntpd>
   <revision>
     <username>root@192.168.1.195</username>
-    <description>/api/haproxy/settings/add_healthcheck/ made changes</description>
-    <time>1765527810.04</time>
+    <description>/api/haproxy/settings/add_acl/ made changes</description>
+    <time>1765527827.01</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -2103,7 +2103,7 @@ __opt2_network</content>
         </action>
       </actions>
     </AcmeClient>
-    <HAProxy version="4.1.0" persisted_at="1765527810.04" description="the HAProxy load balancer">
+    <HAProxy version="4.1.0" persisted_at="1765527827.01" description="the HAProxy load balancer">
       <general>
         <enabled>1</enabled>
         <gracefulStop>0</gracefulStop>
@@ -3314,6 +3314,83 @@ __opt2_network</content>
           <hdr_beg/>
           <hdr_end/>
           <hdr>abisco.alka-it.de</hdr>
+          <hdr_reg/>
+          <hdr_sub/>
+          <path_beg/>
+          <path_end/>
+          <path/>
+          <path_reg/>
+          <path_dir/>
+          <path_sub/>
+          <cust_hdr_beg_name/>
+          <cust_hdr_beg/>
+          <cust_hdr_end_name/>
+          <cust_hdr_end/>
+          <cust_hdr_name/>
+          <cust_hdr/>
+          <cust_hdr_reg_name/>
+          <cust_hdr_reg/>
+          <cust_hdr_sub_name/>
+          <cust_hdr_sub/>
+          <url_param/>
+          <url_param_value/>
+          <ssl_c_verify_code/>
+          <ssl_c_ca_commonname/>
+          <ssl_hello_type>x1</ssl_hello_type>
+          <src/>
+          <src_bytes_in_rate_comparison>gt</src_bytes_in_rate_comparison>
+          <src_bytes_in_rate/>
+          <src_bytes_out_rate_comparison>gt</src_bytes_out_rate_comparison>
+          <src_bytes_out_rate/>
+          <src_conn_cnt_comparison>gt</src_conn_cnt_comparison>
+          <src_conn_cnt/>
+          <src_conn_cur_comparison>gt</src_conn_cur_comparison>
+          <src_conn_cur/>
+          <src_conn_rate_comparison>gt</src_conn_rate_comparison>
+          <src_conn_rate/>
+          <src_http_err_cnt_comparison>gt</src_http_err_cnt_comparison>
+          <src_http_err_cnt/>
+          <src_http_err_rate_comparison>gt</src_http_err_rate_comparison>
+          <src_http_err_rate/>
+          <src_http_req_cnt_comparison>gt</src_http_req_cnt_comparison>
+          <src_http_req_cnt/>
+          <src_http_req_rate_comparison>gt</src_http_req_rate_comparison>
+          <src_http_req_rate/>
+          <src_kbytes_in_comparison>gt</src_kbytes_in_comparison>
+          <src_kbytes_in/>
+          <src_kbytes_out_comparison>gt</src_kbytes_out_comparison>
+          <src_kbytes_out/>
+          <src_port_comparison>gt</src_port_comparison>
+          <src_port/>
+          <src_sess_cnt_comparison>gt</src_sess_cnt_comparison>
+          <src_sess_cnt/>
+          <src_sess_rate_comparison>gt</src_sess_rate_comparison>
+          <src_sess_rate/>
+          <nbsrv/>
+          <nbsrv_backend/>
+          <ssl_fc_sni/>
+          <ssl_sni/>
+          <ssl_sni_sub/>
+          <ssl_sni_beg/>
+          <ssl_sni_end/>
+          <ssl_sni_reg/>
+          <custom_acl/>
+          <value/>
+          <urlparam/>
+          <queryBackend/>
+          <allowedUsers/>
+          <allowedGroups/>
+        </acl>
+        <acl uuid="49c33c12-cafe-4422-85e2-3e779d6e8e78">
+          <id>693bd112f40ae5.78215900</id>
+          <name>alkatraccar</name>
+          <description/>
+          <expression>hdr</expression>
+          <negate>0</negate>
+          <caseSensitive>0</caseSensitive>
+          <hdr_beg/>
+          <hdr_end/>
+          <hdr>traccar.alka-autoteile.xyz</hdr>
           <hdr_reg/>
           <hdr_sub/>
           <path_beg/>
