@@ -867,8 +867,8 @@ XYyEMr6yf4hHsEfIxtPmAAAAF2JhcmlzQGFsa2EtYXV0b3RlaWxlLmRlAQIDBAUG&#13;
   </ntpd>
   <revision>
     <username>root@192.168.1.195</username>
-    <description>/api/haproxy/settings/add_server/ made changes</description>
-    <time>1765527744.23</time>
+    <description>/api/haproxy/settings/add_backend/ made changes</description>
+    <time>1765527789.03</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -2103,7 +2103,7 @@ __opt2_network</content>
         </action>
       </actions>
     </AcmeClient>
-    <HAProxy version="4.1.0" persisted_at="1765527744.23" description="the HAProxy load balancer">
+    <HAProxy version="4.1.0" persisted_at="1765527789.03" description="the HAProxy load balancer">
       <general>
         <enabled>1</enabled>
         <gracefulStop>0</gracefulStop>
@@ -2526,6 +2526,66 @@ __opt2_network</content>
           <ba_advertised_protocols>h2,http11</ba_advertised_protocols>
           <forwardFor>1</forwardFor>
           <forwardedHeader>1</forwardedHeader>
+          <forwardedHeaderParameters/>
+          <persistence>sticktable</persistence>
+          <persistence_cookiemode>piggyback</persistence_cookiemode>
+          <persistence_cookiename>SRVCOOKIE</persistence_cookiename>
+          <persistence_stripquotes>1</persistence_stripquotes>
+          <stickiness_pattern>sourceipv4</stickiness_pattern>
+          <stickiness_dataTypes/>
+          <stickiness_expire>30m</stickiness_expire>
+          <stickiness_size>50k</stickiness_size>
+          <stickiness_cookiename/>
+          <stickiness_cookielength/>
+          <stickiness_connRatePeriod>10s</stickiness_connRatePeriod>
+          <stickiness_sessRatePeriod>10s</stickiness_sessRatePeriod>
+          <stickiness_httpReqRatePeriod>10s</stickiness_httpReqRatePeriod>
+          <stickiness_httpErrRatePeriod>10s</stickiness_httpErrRatePeriod>
+          <stickiness_bytesInRatePeriod>1m</stickiness_bytesInRatePeriod>
+          <stickiness_bytesOutRatePeriod>1m</stickiness_bytesOutRatePeriod>
+          <basicAuthEnabled>0</basicAuthEnabled>
+          <basicAuthUsers/>
+          <basicAuthGroups/>
+          <tuning_timeoutConnect/>
+          <tuning_timeoutCheck/>
+          <tuning_timeoutServer/>
+          <tuning_retries/>
+          <customOptions/>
+          <tuning_defaultserver/>
+          <tuning_noport>0</tuning_noport>
+          <tuning_httpreuse>safe</tuning_httpreuse>
+          <tuning_caching>0</tuning_caching>
+          <linkedActions/>
+          <linkedErrorfiles/>
+        </backend>
+        <backend uuid="e0fc6bb8-f5e3-4cc5-b2e3-249e6b5f53f0">
+          <id>693bd0ed054932.81036234</id>
+          <enabled>1</enabled>
+          <name>AlkaTraccar</name>
+          <description/>
+          <mode>http</mode>
+          <algorithm>source</algorithm>
+          <random_draws>2</random_draws>
+          <proxyProtocol/>
+          <linkedServers>b6d46722-8e2c-402a-9caf-b432e3de4a18</linkedServers>
+          <linkedFcgi/>
+          <linkedResolver/>
+          <resolverOpts/>
+          <resolvePrefer/>
+          <source/>
+          <healthCheckEnabled>1</healthCheckEnabled>
+          <healthCheck/>
+          <healthCheckLogStatus>0</healthCheckLogStatus>
+          <checkInterval/>
+          <checkDownInterval/>
+          <healthCheckFall/>
+          <healthCheckRise/>
+          <linkedMailer/>
+          <http2Enabled>1</http2Enabled>
+          <http2Enabled_nontls>0</http2Enabled_nontls>
+          <ba_advertised_protocols>h2,http11</ba_advertised_protocols>
+          <forwardFor>0</forwardFor>
+          <forwardedHeader>0</forwardedHeader>
           <forwardedHeaderParameters/>
           <persistence>sticktable</persistence>
           <persistence_cookiemode>piggyback</persistence_cookiemode>
