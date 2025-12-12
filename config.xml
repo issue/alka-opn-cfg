@@ -867,8 +867,8 @@ XYyEMr6yf4hHsEfIxtPmAAAAF2JhcmlzQGFsa2EtYXV0b3RlaWxlLmRlAQIDBAUG&#13;
   </ntpd>
   <revision>
     <username>root@192.168.1.195</username>
-    <description>/api/haproxy/settings/add_backend/ made changes</description>
-    <time>1765527789.03</time>
+    <description>/api/haproxy/settings/add_healthcheck/ made changes</description>
+    <time>1765527810.04</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -2103,7 +2103,7 @@ __opt2_network</content>
         </action>
       </actions>
     </AcmeClient>
-    <HAProxy version="4.1.0" persisted_at="1765527789.03" description="the HAProxy load balancer">
+    <HAProxy version="4.1.0" persisted_at="1765527810.04" description="the HAProxy load balancer">
       <general>
         <enabled>1</enabled>
         <gracefulStop>0</gracefulStop>
@@ -2943,6 +2943,38 @@ __opt2_network</content>
           <http_uri>/health</http_uri>
           <http_version>http10</http_version>
           <http_host>192.168.1.220</http_host>
+          <http_expressionEnabled>0</http_expressionEnabled>
+          <http_expression/>
+          <http_negate>0</http_negate>
+          <http_value/>
+          <tcp_enabled>0</tcp_enabled>
+          <tcp_sendValue/>
+          <tcp_matchType>string</tcp_matchType>
+          <tcp_negate>0</tcp_negate>
+          <tcp_matchValue/>
+          <agent_port/>
+          <mysql_user/>
+          <mysql_post41>0</mysql_post41>
+          <pgsql_user/>
+          <smtp_domain/>
+          <esmtp_domain/>
+          <agentPort/>
+          <dbUser/>
+          <smtpDomain/>
+        </healthcheck>
+        <healthcheck uuid="0e855179-84d2-409a-922d-c6c1fc8cee9b">
+          <name>AlkaTraccar</name>
+          <description/>
+          <type>http</type>
+          <interval>2s</interval>
+          <ssl>nopref</ssl>
+          <sslSNI/>
+          <force_ssl>0</force_ssl>
+          <checkport>8080</checkport>
+          <http_method>options</http_method>
+          <http_uri>/</http_uri>
+          <http_version>http10</http_version>
+          <http_host>192.168.1.8</http_host>
           <http_expressionEnabled>0</http_expressionEnabled>
           <http_expression/>
           <http_negate>0</http_negate>
