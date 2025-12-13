@@ -866,9 +866,9 @@ XYyEMr6yf4hHsEfIxtPmAAAAF2JhcmlzQGFsa2EtYXV0b3RlaWxlLmRlAQIDBAUG&#13;
     <prefer>192.168.1.3</prefer>
   </ntpd>
   <revision>
-    <username>root@192.168.1.195</username>
-    <description>/api/haproxy/settings/set_server/b6d46722-8e2c-402a-9caf-b432e3de4a18 made changes</description>
-    <time>1765528445.09</time>
+    <username>(system)</username>
+    <description>/usr/local/opnsense/mvc/script/run_migrations.php made changes</description>
+    <time>1765656955.50</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -1621,7 +1621,7 @@ __opt2_network</content>
         <MinProtocol_DTLS/>
       </general>
     </trust>
-    <unboundplus version="1.0.12" persisted_at="1755430130.09">
+    <unboundplus version="1.0.13" persisted_at="1765656954.57" description="Unbound configuration">
       <general>
         <enabled>1</enabled>
         <port>53</port>
@@ -1638,6 +1638,7 @@ __opt2_network</content>
         <noregrecords>0</noregrecords>
         <txtsupport>0</txtsupport>
         <cacheflush>0</cacheflush>
+        <safesearch>0</safesearch>
         <local_zone_type>transparent</local_zone_type>
         <outgoing_interface/>
         <enable_wpad>0</enable_wpad>
@@ -1685,17 +1686,7 @@ __opt2_network</content>
       <acls>
         <default_action>allow</default_action>
       </acls>
-      <dnsbl>
-        <enabled>0</enabled>
-        <safesearch>0</safesearch>
-        <type/>
-        <lists/>
-        <whitelists/>
-        <blocklists/>
-        <wildcards/>
-        <address/>
-        <nxdomain>0</nxdomain>
-      </dnsbl>
+      <dnsbl/>
       <forwarding>
         <enabled>0</enabled>
       </forwarding>
