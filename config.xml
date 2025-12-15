@@ -868,7 +868,7 @@ XYyEMr6yf4hHsEfIxtPmAAAAF2JhcmlzQGFsa2EtYXV0b3RlaWxlLmRlAQIDBAUG&#13;
   <revision>
     <username>root@192.168.1.195</username>
     <description>/api/haproxy/settings/set_healthcheck/88906dff-5d6b-44a8-9566-8a757a29eae1 made changes</description>
-    <time>1765788266.44</time>
+    <time>1765798166.83</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -2094,7 +2094,7 @@ __opt2_network</content>
         </action>
       </actions>
     </AcmeClient>
-    <HAProxy version="4.1.0" persisted_at="1765788266.43" description="the HAProxy load balancer">
+    <HAProxy version="4.1.0" persisted_at="1765798166.83" description="the HAProxy load balancer">
       <general>
         <enabled>1</enabled>
         <gracefulStop>0</gracefulStop>
@@ -2933,7 +2933,7 @@ __opt2_network</content>
           <http_method>get</http_method>
           <http_uri>/health</http_uri>
           <http_version>http10</http_version>
-          <http_host>192.168.1.220</http_host>
+          <http_host>192.168.1.195</http_host>
           <http_expressionEnabled>0</http_expressionEnabled>
           <http_expression/>
           <http_negate>0</http_negate>
