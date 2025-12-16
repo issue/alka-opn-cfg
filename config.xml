@@ -894,7 +894,7 @@ XYyEMr6yf4hHsEfIxtPmAAAAF2JhcmlzQGFsa2EtYXV0b3RlaWxlLmRlAQIDBAUG&#13;
   <revision>
     <username>(system)</username>
     <description>/usr/local/opnsense/scripts/OPNsense/AcmeClient/lecert.php made changes</description>
-    <time>1765926058.47</time>
+    <time>1765926058.48</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -1720,7 +1720,7 @@ __opt2_network</content>
       <hosts/>
       <aliases/>
     </unboundplus>
-    <AcmeClient version="4.3.0" persisted_at="1764337965.59" description="A secure ACME Client plugin">
+    <AcmeClient version="4.3.0" persisted_at="1765926058.48" description="A secure ACME Client plugin">
       <settings>
         <enabled>1</enabled>
         <autoRenewal>1</autoRenewal>
@@ -1792,7 +1792,7 @@ __opt2_network</content>
           <domainalias/>
           <challengealias/>
           <certRefId>68a34e8e715df</certRefId>
-          <lastUpdate>1760738458</lastUpdate>
+          <lastUpdate>1765926058</lastUpdate>
           <statusCode>200</statusCode>
           <statusLastUpdate>1760738458</statusLastUpdate>
         </certificate>
@@ -1829,6 +1829,7 @@ __opt2_network</content>
           <dns_azuredns_tenantid/>
           <dns_azuredns_appid/>
           <dns_azuredns_clientsecret/>
+          <dns_azuredns_managedidentity>0</dns_azuredns_managedidentity>
           <dns_bunny_api_key/>
           <dns_cf_email/>
           <dns_cf_key/>
@@ -1962,6 +1963,12 @@ __opt2_network</content>
           <dns_porkbun_key/>
           <dns_porkbun_secret/>
           <dns_sl_key/>
+          <dns_sl_apiver/>
+          <dns_sl_token_lifetime/>
+          <dns_sl_account_id/>
+          <dns_sl_project_name/>
+          <dns_sl_login_name/>
+          <dns_sl_password/>
           <dns_selfhost_user/>
           <dns_selfhost_password/>
           <dns_selfhost_map/>
@@ -2004,6 +2011,7 @@ __opt2_network</content>
           <dns_artfiles_username/>
           <dns_artfiles_password/>
           <dns_hetzner_token/>
+          <dns_hetznercloud_token/>
           <dns_hexonet_login/>
           <dns_hexonet_password/>
           <dns_1984hosting_user/>
@@ -2048,7 +2056,10 @@ __opt2_network</content>
           <dns_rackspace_key/>
           <dns_rage4_token/>
           <dns_rage4_user/>
+          <dns_mijnhost_api_key/>
           <dns_scaleway_token/>
+          <dns_zoneedit_id/>
+          <dns_zoneedit_token/>
         </validation>
       </validations>
       <actions>
