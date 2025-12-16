@@ -893,8 +893,8 @@ XYyEMr6yf4hHsEfIxtPmAAAAF2JhcmlzQGFsa2EtYXV0b3RlaWxlLmRlAQIDBAUG&#13;
   </ntpd>
   <revision>
     <username>root@192.168.1.195</username>
-    <description>/firewall_rules_edit.php made changes</description>
-    <time>1765875315.86</time>
+    <description>/api/haproxy/settings/set made changes</description>
+    <time>1765886075.08</time>
   </revision>
   <OPNsense>
     <wireguard>
@@ -2120,7 +2120,7 @@ __opt2_network</content>
         </action>
       </actions>
     </AcmeClient>
-    <HAProxy version="4.1.0" persisted_at="1765798181.61" description="the HAProxy load balancer">
+    <HAProxy version="4.1.0" persisted_at="1765886075.08" description="the HAProxy load balancer">
       <general>
         <enabled>1</enabled>
         <gracefulStop>0</gracefulStop>
@@ -2169,10 +2169,10 @@ __opt2_network</content>
         <defaults>
           <maxConnections/>
           <maxConnectionsServers/>
-          <timeoutClient>30s</timeoutClient>
-          <timeoutConnect>30s</timeoutConnect>
+          <timeoutClient>60s</timeoutClient>
+          <timeoutConnect>60s</timeoutConnect>
           <timeoutCheck/>
-          <timeoutServer>30s</timeoutServer>
+          <timeoutServer>60s</timeoutServer>
           <retries>3</retries>
           <redispatch>x-1</redispatch>
           <init_addr>last,libc</init_addr>
