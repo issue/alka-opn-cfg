@@ -892,9 +892,9 @@ XYyEMr6yf4hHsEfIxtPmAAAAF2JhcmlzQGFsa2EtYXV0b3RlaWxlLmRlAQIDBAUG&#13;
     <prefer>192.168.1.3</prefer>
   </ntpd>
   <revision>
-    <username>root@192.168.1.195</username>
-    <description>/api/haproxy/settings/set made changes</description>
-    <time>1765886075.08</time>
+    <username>(system)</username>
+    <description>/usr/local/opnsense/scripts/OPNsense/AcmeClient/lecert.php made changes</description>
+    <time>1765926058.39</time>
   </revision>
   <OPNsense>
     <wireguard>
