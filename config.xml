@@ -582,6 +582,32 @@ XYyEMr6yf4hHsEfIxtPmAAAAF2JhcmlzQGFsa2EtYXV0b3RlaWxlLmRlAQIDBAUG&#13;
         <description>/firewall_rules_edit.php made changes</description>
       </created>
     </rule>
+    <rule uuid="593a86b3-d93d-4c2d-8eae-9b85988130f7">
+      <type>pass</type>
+      <interface>opt1</interface>
+      <ipprotocol>inet</ipprotocol>
+      <statetype>keep state</statetype>
+      <direction>in</direction>
+      <quick>1</quick>
+      <protocol>udp</protocol>
+      <source>
+        <network>opt1</network>
+      </source>
+      <destination>
+        <address>192.168.1.74/32</address>
+        <port>443</port>
+      </destination>
+      <updated>
+        <username>root@192.168.1.195</username>
+        <time>1765875315.73</time>
+        <description>/firewall_rules_edit.php made changes</description>
+      </updated>
+      <created>
+        <username>root@192.168.1.195</username>
+        <time>1765875315.73</time>
+        <description>/firewall_rules_edit.php made changes</description>
+      </created>
+    </rule>
     <rule uuid="65ebee56-5d6c-422c-8410-5092de4aa8c4">
       <type>pass</type>
       <interface>opt1</interface>
@@ -867,8 +893,8 @@ XYyEMr6yf4hHsEfIxtPmAAAAF2JhcmlzQGFsa2EtYXV0b3RlaWxlLmRlAQIDBAUG&#13;
   </ntpd>
   <revision>
     <username>root@192.168.1.195</username>
-    <description>/api/haproxy/settings/set_server/7c1ebe27-989a-49c1-ab65-51a4bb62aa9a made changes</description>
-    <time>1765798181.61</time>
+    <description>/firewall_rules_edit.php made changes</description>
+    <time>1765875315.86</time>
   </revision>
   <OPNsense>
     <wireguard>
